@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_map_white_48dp"
+        android:title="@string/action_map"
+        android:onClick="openMapActivity"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:title="Changelog"
+        app:showAsAction="never"
+        android:onClick="openChangelog"/>
+    <item android:id="@+id/action_settings"
+        android:title="Über FirstAid"
+        app:showAsAction="never"
+        android:onClick="openAboutActivity"/>
+
+</menu>
