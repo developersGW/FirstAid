@@ -3,7 +3,9 @@
 
 **DO NOT GIVE THIS APP FULL CONFIDENCE IN CASE OF REAL EMERGENCIES, ESPECIALLY BEFORE THE OFFICIAL RELEASE. WE CANNOT GUARANTEE THE CORRECTNESS OF ANY CONTENT. PLEASE USE IT AT YOUR OWN RISK!**
 
+The changelog can be accessed under this path: /app/src/main/assets/changelog.md
 
+For contributions before 7.9.2017, please see https://github.com/developersGW/FirstAidArchived.
 
 ## TEAM
 
