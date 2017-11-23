@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      h1, h2 {
+        font-weight: normal;
+        margin: 0;
+      }
+      fieldset {
+        border: none;
+        border-radius: 10px;
+        border-bottom: 3px solid #f00;
+      }
+      button {
+        background: transparent;
+        border: none;
+        font-weight: bold;
+        color: #f00;
+        text-transform: uppercase;
+        font-size: 20px;
+        border-radius: 5px;
+        transition: all .2s;
+      }
+      button:active {
+        background: #eee;
+        padding-right: auto;
+      }
+      div {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #ccc;
+        padding: 20px;
+      }
+      body {
+        background: #eee;
+      }
+      a {
+        text-decoration: none;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        color: #444;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      li {
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: .1s;
+        filter: grayscale(100%);
+        color: #f00;
+      }
+      li::before {
+        content: "» ";
+      }
+      li:active {
+        background: #ddd;
+        filter: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>
+        <table>
+          <tr>
+            <td style="vertical-align: top"><img src="home.svg"></td>
+            <td>Welcome to FirstAid</td>
+          <tr>
+        </table>
+      </h1>
+      <hr style="border: 1px solid #aaa">
+      <h2>Your safety comes first!</h2>
+      <ul>
+        <a href="emergency.html"><li>Emergency options</li></a>
+        <a href="body.html"><li>Body</li></a>
+        <a href="javascript:alert('Map activity - coming soon')"><li>Map</li></a>
+        <a href="tutorial.html"><li>Tutorial</li></a>
+        <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
+        <a href="http://firstaid.tim-ney.de/blog-app/"><li>News</li></a>
+        <a href="settings.html"><li>Settings</li></a>
+        <a href="info.html"><li>Important information</li></a>
+      </ul>
+    </div>
+    <script>
+      function alert(message, title) {
+        firstaid.dialog(message, title || null);
+      }
+    </script>
+  </body>
+</html>
