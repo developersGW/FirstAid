@@ -4,8 +4,11 @@ import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +26,12 @@ import java.util.Optional;
 public class MainActivity extends AppCompatActivity {
 
     ProgressDialog dialog;
+
+    private void hideDialog() {
+        if (dialog != null) {
+            dialog.dismiss();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,24 +55,59 @@ public class MainActivity extends AppCompatActivity {
         webview.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (dialog != null) {
-                    dialog.dismiss();
+                hideDialog();
+                final Uri uri = Uri.parse(url);
+                System.out.println(uri.getScheme());
+                if (!uri.getScheme().equals("file")) {
+                    if (uri.getHost() != null) {
+                        if (uri.getHost() != null && uri.getHost().equals("firstaid.tim-ney.de")) {
+                            dialog = new ProgressDialog(MainActivity.this);
+                            dialog.setCancelable(false);
+                            dialog.setTitle("Inhalte werden nachgeladen…");
+                            dialog.setMessage(url);
+                            dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Ausblenden", (DialogInterface.OnClickListener) null);
+                            dialog.show();
+                        } else {
+                            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+                                    .setCancelable(false)
+                                    .setTitle("Haftungsausschluss")
+                                    .setMessage("Die Mitwirkenden am " + getString(R.string.app_name) + "-Projekt sind nicht für Webpräsenzen Dritter verantwortlich und übernehmen keinerlei Haftung für deren Inhalte bzw. wie aktuell diese sind.")
+                                    .setPositiveButton("Fortfahren", new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            Intent browserIntent = new Intent(Intent.ACTION_VIEW, uri);
+                                            startActivity(browserIntent);
+                                        }
+                                    })
+                                    .setNegativeButton("Abbrechen", null);
+                            builder.create().show();
+                            return true;
+                        }
+                    }
+                    else {
+                        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+                                .setCancelable(false)
+                                .setMessage(url)
+                                .setPositiveButton("OK", null);
+                        builder.create().show();
+                        return true;
+                    }
                 }
-                if (! Uri.parse(url).getScheme().equals("file")) {
-                    dialog = ProgressDialog.show(MainActivity.this, "Loading…", url, true);
-                }
-                webview.loadUrl(url);
-                return true;
+                return false;
             }
             @Override
             public void onPageCommitVisible(WebView view, String url) {
-                if (dialog != null) {
-                    dialog.dismiss();
-                }
+                hideDialog();
             }
         });
         webview.addJavascriptInterface(new WebAppInterface(this), "firstaid");
-        webview.loadUrl("file:///android_asset/home.html");
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        boolean previouslyStarted = prefs.getBoolean(getString(R.string.previouslyStarted), false);
+        if (previouslyStarted) {
+            webview.loadUrl("file:///android_asset/home.html");
+        }
+        else {
+            webview.loadUrl("file:///android_asset/license.html");
+        }
     }
 
     public class WebAppInterface {
@@ -82,6 +126,27 @@ public class MainActivity extends AppCompatActivity {
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             dialog.cancel();
+                        }
+                    });
+            builder.create().show();
+        }
+
+        @JavascriptInterface
+        public void agree() {
+            SharedPreferences.Editor edit = PreferenceManager.getDefaultSharedPreferences(getBaseContext()).edit();
+            edit.putBoolean(getString(R.string.previouslyStarted), true);
+            edit.commit();
+        }
+
+        @JavascriptInterface
+        public void decline() {
+            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("Abgelehnt")
+                    .setMessage("Um diese App nutzen zu können, musst du den Lizenzbedingungen zustimmen.")
+                    .setCancelable(false)
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            finish();
                         }
                     });
             builder.create().show();

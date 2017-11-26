@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Menu</title>
+    <title>FirstAid Aktionsübersicht</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -70,22 +70,23 @@
         <table>
           <tr>
             <td style="vertical-align: top"><img src="home.svg"></td>
-            <td>Welcome to FirstAid</td>
+            <td>Willkommen bei FirstAid</td>
           <tr>
         </table>
       </h1>
       <hr style="border: 1px solid #aaa">
-      <h2>Your safety comes first!</h2>
+      <h2>Deine Sicherheit steht im Vordergrund!</h2>
       <ul>
-        <a href="emergency.html"><li>Emergency options</li></a>
-        <a href="body.html"><li>Body</li></a>
-        <a href="javascript:alert('Map activity - coming soon')"><li>Map</li></a>
-        <a href="tutorial.html"><li>Tutorial</li></a>
+        <a href="dummy.html"><li>Notfallmaßnahmen</li></a>
+        <a href="dummy.html"><li>Unser Körper</li></a>
+        <a href="javascript:location='dummy.html';alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
+        <a href="javascript:location='tutorial.html';alert('Die Einführung wird demnächst implementiert.')"><li>Einführung</li></a>
         <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
-        <a href="http://firstaid.tim-ney.de/blog-app/"><li>News</li></a>
-        <a href="settings.html"><li>Settings</li></a>
-        <a href="info.html"><li>Important information</li></a>
+        <a href="http://firstaid.tim-ney.de/blog-app/"><li>Neuigkeiten</li></a>
+        <a href="dummy.html"><li>Einstellungen</li></a>
+        <a href="javascript:location='dummy.html';alert('Folgende Inhalte sind geplant:\n● GNU GPLv3\n● Lizenzen der Bibliotheken\n● Garantieausschluss\n● Haftungsbeschränkung\n● Allgemeines über das Schulprojekt')"><li>Mehr erfahren</li></a>
       </ul>
+      Wir hoffen, dass dich FirstAid im Ernstfall unterstützen kann. Die Veröffentlichung dieser App erfolgt jedoch ohne jegliche Garantie. Näheres erfährst du in der <a href="license.html">GNU General Public License</a>.
     </div>
     <script>
       function alert(message, title) {

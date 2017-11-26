@@ -62,6 +62,8 @@
 
     <string-array name="multi_select_list_preference_default_value" />
 
+    <string name="test">Test</string>
+
     <string name="pref_title_system_sync_settings">System sync settings</string>
 
     <!-- Example settings for Notifications -->
@@ -73,4 +75,6 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="previouslyStarted">false</string>
 </resources>
