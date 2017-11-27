@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme">
+    <item
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:onClick="goHome"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Hier ist Platz für Menüelemente"
+        android:enabled="false"
+        app:showAsAction="never"/>
+
+</menu>

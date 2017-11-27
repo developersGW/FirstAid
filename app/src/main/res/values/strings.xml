@@ -76,4 +76,5 @@
 
     <!-- Checks if the user did already agree to the license -->
     <string name="previouslyStarted">false</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
