@@ -1,36 +1,29 @@
 package developersgw.firstaid;
 
-import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.webkit.JavascriptInterface;
-import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.PopupMenu;
 import android.widget.Toast;
-
-import java.util.Optional;
 
 public class MainActivity extends AppCompatActivity {
 
     ProgressDialog dialog;
+    Menu mainmenu;
 
     private void hideDialog() {
         if (dialog != null) {
@@ -40,21 +33,21 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        mainmenu = menu;
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_main, menu);
         return true;
     }
 
     public void goHome(MenuItem item) {
-        Intent intent = getIntent();
-        finish();
-        startActivity(intent);
+        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/home.html");
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(getBaseContext(), "Welcome to " + getString(R.string.app_name) + "!", Toast.LENGTH_SHORT).show();
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         final WebView webview = (WebView) findViewById(R.id.webview);
@@ -63,11 +56,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onReceivedTitle(WebView view, String title) {
                 getSupportActionBar().setTitle(title);
-                if (webview.canGoBack()) {
+                if (webview.canGoBack() && !view.getUrl().equals("file:///android_asset/home.html")) {
                     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                    mainmenu.findItem(R.id.home).setVisible(true);
                 }
                 else {
                     getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+                    mainmenu.findItem(R.id.home).setVisible(false);
                 }
                 super.onReceivedTitle(view, title);
             }
@@ -77,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 hideDialog();
                 final Uri uri = Uri.parse(url);
-                System.out.println(uri.getScheme());
                 if (!uri.getScheme().equals("file")) {
                     if (uri.getHost() != null) {
                         if (uri.getHost() != null && uri.getHost().equals("firstaid.tim-ney.de")) {
@@ -185,7 +179,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (((WebView) findViewById(R.id.webview)).canGoBack()) {
+        WebView webview = (WebView) findViewById(R.id.webview);
+        if (webview.canGoBack() && !webview.getUrl().equals("file:///android_asset/home.html")) {
             goBack();
         }
         else {

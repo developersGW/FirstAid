@@ -3,13 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:theme="@style/AppTheme">
     <item
+        android:id="@+id/home"
         android:icon="@drawable/home"
         android:title="Home"
         android:onClick="goHome"
+        android:visible="false"
         app:showAsAction="always"/>
 
     <item
-        android:title="Hier ist Platz für Menüelemente"
+        android:title="Platz für dauerhaft anzuzeigende Menüelemente"
         android:enabled="false"
         app:showAsAction="never"/>
 

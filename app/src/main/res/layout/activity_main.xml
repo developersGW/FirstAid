@@ -26,7 +26,8 @@
         android:background="@color/colorPrimary"
         android:elevation="4dp"
         android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:visibility="visible" />
 
     <WebView
         android:id="@+id/webview"
