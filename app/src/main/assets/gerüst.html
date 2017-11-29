@@ -51,12 +51,12 @@
         <table>
           <tr>
             <td style="vertical-align: top"><img id="icon"></td>
-            <td class="title">Beispieltitel</td>
+            <td class="title"></td>
           <tr>
         </table>
       </h1>
       <hr style="border: 1px solid #aaa">
-      <h2 class="subtitle">Beispieluntertitel</h2>
+      <h2 class="subtitle"></h2>
       <p class="page" style="margin-bottom: 0">
         Hallo Welt
       </p>
@@ -66,19 +66,19 @@
         firstaid.dialog(message, title || null);
       }
       function get(element) {
-        return new URL(location.href).searchParams.get(element);
+        return new URL(location.href).searchParams.get("content").match("<" + element + ">(.*?)</" + element + ">")[1];
       }
-      function set(element) {
+      function apply(element) {
         var content = get(element);
         var elements = document.getElementsByClassName(element);
         for (i in elements) {
           elements[i].innerHTML = content;
-        }
+        }        
       }
       document.getElementById("icon").setAttribute("src", get("icon") + ".svg");
-      set("title");
-      set("subtitle");
-      set("page");
+      apply("title");
+      apply("subtitle");
+      apply("page");
     </script>
   </body>
 </html>
