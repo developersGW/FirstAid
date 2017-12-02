@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.map {
+  margin:10px;
+  position: absolute;
+  display: inline-block;
+
+}
+
+.map img {
+  max-width:100%;
+}
+
+.box {
+  width:25%;
+  height:25%;
+  background-image: url(icon/pintim2.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+#pin-1 {
+  top:23%;
+  left:70%;
+}
+
+#pin-2 {
+  top:5%;
+  left:58%;
+}
+
+#pin-3 {
+  top:75%;
+  left:56%;
+}
+
+
+.box:hover > .pin-text {
+  display: block;
+}
+
+.pin-text {
+  position: absolute;
+  top:40%;
+  transform:translateY(-50%);
+  left:75%;
+  white-space:nowrap;
+  display: none;
+}
+
+.pin-text h3 {
+    color:black;
+    text-shadow: 1px 1px 1px #000;
+}

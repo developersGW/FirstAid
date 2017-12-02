@@ -1,12 +1,13 @@
-<icon>home</icon>
+<icon>icon/home</icon>
 <title>Willkommen bei FirstAid</title>
 <subtitle>Deine Sicherheit steht im Vordergrund!</subtitle>
 <page>
   <ul class="buttonlist">
     <a href="dummy.faml"><li>Notfallmaßnahmen</li></a>
-    <a href="dummy.faml"><li>Unser Körper</li></a>
+    <a href="korper.html"><li>Unser Körper</li></a>
     <a href="javascript:alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
-    <a href="tutorial.html"><li>Einführung</li></a>
+    <a href="tutorial.faml"><li>Einführung</li></a>
+    <a href="test.html"><li>Einführungstester</li></a>
     <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
     <a href="http://firstaid.tim-ney.de/blog-app/"><li>Neuigkeiten</li></a>
     <a href="dummy.faml"><li>Einstellungen</li></a>
