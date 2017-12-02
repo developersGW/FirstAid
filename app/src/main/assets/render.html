@@ -97,6 +97,10 @@
       var txt = document.createElement("textarea");
       txt.innerHTML = markdown.toHTML(get("page"));
       selectClass("page")[0].innerHTML = txt.value;
+      var scripts = selectClass("page")[0].getElementsByTagName("script");
+      for (i = 0; i < scripts.length; i++) {
+        eval(scripts[i].innerHTML);
+      }
     </script>
   </body>
 </html>

@@ -2,6 +2,7 @@
 <title>Willkommen bei FirstAid</title>
 <subtitle>Deine Sicherheit steht im Vordergrund!</subtitle>
 <page>
+  <div onload="alert('HALLO')"></div>
   <ul class="buttonlist">
     <a href="dummy.faml"><li>Notfallmaßnahmen</li></a>
     <a href="dummy.faml"><li>Unser Körper</li></a>
