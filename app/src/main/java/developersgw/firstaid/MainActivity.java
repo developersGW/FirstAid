@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.AssetManager;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
@@ -20,13 +19,10 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,14 +44,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goHome(MenuItem item) {
-        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/home.html");
+        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/render.html?file=home.faml");
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getBaseContext(), "Welcome to " + getString(R.string.app_name) + "!", Toast.LENGTH_SHORT).show();
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         final WebView webview = (WebView) findViewById(R.id.webview);
@@ -64,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onReceivedTitle(WebView view, String title) {
                 getSupportActionBar().setTitle(title);
-                if (webview.canGoBack() && !view.getUrl().equals("file:///android_asset/home.html")) {
+                if (webview.canGoBack() && !view.getUrl().equals("file:///android_asset/render.html?file=home.faml")) {
                     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                     mainmenu.findItem(R.id.home).setVisible(true);
                 }
@@ -114,32 +109,17 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     }
                 }
-                else if (url.endsWith(".xml")) {
-                    try {
-                    StringBuilder buf=new StringBuilder();
-                    InputStream json=getAssets().open(url.replace("file:///android_asset/", ""));
-                    BufferedReader in=
-                            new BufferedReader(new InputStreamReader(json, "UTF-8"));
-                    String str;
-
-                    while ((str=in.readLine()) != null) {
-                        buf.append(str);
-                    }
-                    in.close();
-                    webview.loadUrl("file:///android_asset/gerüst.html?content=" + buf);
-                    System.out.println(buf);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                else if (url.endsWith(".faml")) {
+                    webview.loadUrl("file:///android_asset/render.html?file=" + url.replace("file:///android_asset/", ""));
                     return true;
                 }
                 return false;
             }
             @Override
             public void onPageFinished(WebView view, String url) {
-                if (url.endsWith(".xml")) {
-                    webview.loadUrl("javascript:location='gerüst.html?content='+document.documentElement.innerHTML");
-                }
+//                if (url.endsWith(".faml")) {
+//                    webview.loadUrl("file:///android_asset/render.html?file=" + url.replace("file:///android_asset/", ""));
+//                }
             }
             @Override
             public void onPageCommitVisible(WebView view, String url) {
@@ -150,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean previouslyStarted = prefs.getBoolean(getString(R.string.previouslyStarted), false);
         if (previouslyStarted) {
-            webview.loadUrl("file:///android_asset/home.html");
+            webview.loadUrl("file:///android_asset/render.html?file=home.faml");
         }
         else {
             webview.loadUrl("file:///android_asset/license.html");
@@ -162,6 +142,37 @@ public class MainActivity extends AppCompatActivity {
 
         WebAppInterface(Context newcontext) {
             context = newcontext;
+        }
+
+        @JavascriptInterface
+        public String getMarkup(String file) {
+            final WebView webview = (WebView) findViewById(R.id.webview);
+            try {
+                StringBuilder buf=new StringBuilder();
+                InputStream json = getAssets().open(file);
+                BufferedReader in = new BufferedReader(new InputStreamReader(json, "UTF-8"));
+                String str;
+                while ((str = in.readLine()) != null) {
+                    buf.append(str + "\n");
+                }
+                in.close();
+                return buf.toString();
+            } catch (IOException e) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
+                        .setTitle("Fehler bei der Datenverarbeitung")
+                        .setMessage("Beim Einlesen der Daten trat leider folgende Ausnahme auf: " + e.toString())
+                        .setPositiveButton("OK", null)
+                        .setNeutralButton("Fehler berichten", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // TODO:
+                                // Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(/*URL*/));
+                                // startActivity(browserIntent);
+                                webview.loadUrl("javascript:alert('Ein Fehlerbericht kann derzeit nicht abgesetzt werden.')");
+                            }
+                        });
+                builder.create().show();
+            }
+            return null;
         }
 
         @JavascriptInterface
@@ -213,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         WebView webview = (WebView) findViewById(R.id.webview);
-        if (webview.canGoBack() && !webview.getUrl().equals("file:///android_asset/home.html")) {
+        if (webview.canGoBack() && !webview.getUrl().equals("file:///android_asset/render.html?file=home.faml")) {
             goBack();
         }
         else {
