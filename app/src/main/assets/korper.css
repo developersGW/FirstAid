@@ -25,8 +25,9 @@
   position: absolute;
 }
 
+/* Zu korper1 und korper2 */
 #pin-1 {
-  top:23%;
+  top:25%;
   left:70%;
 }
 
@@ -36,8 +37,64 @@
 }
 
 #pin-3 {
-  top:75%;
+  top:77%;
   left:56%;
+}
+
+#pin-4 {
+  top:75%;
+  left:54%;
+}
+
+/* Zu Korper 3 */
+
+#pin-5 {
+  top:-2%;
+  left:44%;
+}
+
+#pin-6 {
+  top:28%;
+  left:47%;
+}
+
+#pin-7 {
+  top:54%;
+  left:35%;
+}
+
+/* Zu Korper 4 */
+
+#pin-8 {
+  top:11%;
+  left:49%;
+}
+
+#pin-9 {
+  top:25%;
+  left:40%;
+}
+
+#pin-10 {
+  top:79%;
+  left:60%;
+}
+
+/* Zu Korper 5 */
+
+#pin-11 {
+  top:-3%;
+  left:43%;
+}
+
+#pin-12 {
+  top:18%;
+  left:40%;
+}
+
+#pin-13 {
+  top:79%;
+  left:45%;
 }
 
 

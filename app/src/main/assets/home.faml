@@ -4,7 +4,7 @@
 <page>
   <ul class="buttonlist">
     <a href="dummy.faml"><li>Notfallmaßnahmen</li></a>
-    <a href="korper.html"><li>Unser Körper</li></a>
+    <a href="korper.faml"><li>Unser Körper</li></a>
     <a href="javascript:alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
     <a href="tutorial.faml"><li>Einführung</li></a>
     <a href="test.html"><li>Einführungstester</li></a>
