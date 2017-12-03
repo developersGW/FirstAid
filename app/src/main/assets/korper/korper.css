@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.map {
+  margin:10px;
+  position: absolute;
+  display: inline-block;
+
+}
+
+.map img {
+  max-width:100%;
+}
+
+.box {
+  width:25%;
+  height:25%;
+  background-image: url(icon/pintimb.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+/* Zu korper1 und korper2 */
+#pin-1 {
+  top:25%;
+  left:70%;
+}
+
+#pin-2 {
+  top:5%;
+  left:58%;
+}
+
+#pin-3 {
+  top:77%;
+  left:56%;
+}
+
+#pin-4 {
+  top:78%;
+  left:54%;
+}
+
+/* Zu Korper 3 */
+
+#pin-5 {
+  top:-2%;
+  left:44%;
+}
+
+#pin-6 {
+  top:28%;
+  left:47%;
+}
+
+#pin-7 {
+  top:54%;
+  left:35%;
+}
+
+/* Zu Korper 4 */
+
+#pin-8 {
+  top:11%;
+  left:49%;
+}
+
+#pin-9 {
+  top:25%;
+  left:40%;
+}
+
+#pin-10 {
+  top:79%;
+  left:50%;
+}
+
+/* Zu Korper 5 */
+
+#pin-11 {
+  top:-3%;
+  left:43%;
+}
+
+#pin-12 {
+  top:18%;
+  left:40%;
+}
+
+#pin-13 {
+  top:79%;
+  left:45%;
+}
+
+
+.box:hover > .pin-text {
+  display: block;
+}
+
+.pin-text {
+  position: absolute;
+  top:40%;
+  transform:translateY(-50%);
+  left:75%;
+  white-space:nowrap;
+  display: none;
+}
+
+.pin-text h3 {
+    color:black;
+    text-shadow: 1px 1px 1px #000;
+}
