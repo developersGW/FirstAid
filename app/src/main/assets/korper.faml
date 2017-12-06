@@ -11,7 +11,7 @@
     <div class="tim-dropdown-hover">
         <button class="tim-button tim-black">Ansichten</button>
         <div class="tim-dropdown-content tim-bar-block tim-border">
-            <a href="korper/korper1.faml" class="tim-bar-item tim-button">Muskeln vorne</a>
+            <a href="korper/korper1.html" class="tim-bar-item tim-button">Muskeln vorne</a>
             <a href="korper/korper2.html" class="tim-bar-item tim-button">Muskeln hinten</a>
         </div>
     </div>
