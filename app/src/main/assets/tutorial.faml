@@ -5,7 +5,7 @@
 <page>
 
 <meta name="Tutorial" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="tutorial.css">
+<link rel="stylesheet" href="test.css">
 
 <style>
 .mySlides {display:none}
