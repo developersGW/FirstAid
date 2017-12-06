@@ -10,8 +10,8 @@
     <div class="w3-dropdown-hover">
         <button class="w3-button w3-black">Ansichten</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="korper1.html" class="w3-bar-item w3-button">Muskeln vorne</a>
-            <a href="korper2.html" class="w3-bar-item w3-button">Muskeln hinten</a>
+            <a href="korper/korper1.html" class="w3-bar-item w3-button">Muskeln vorne</a>
+            <a href="korper/korper2.html" class="w3-bar-item w3-button">Muskeln hinten</a>
         </div>
     </div>
 </div>
@@ -23,9 +23,9 @@
     <div class="w3-dropdown-hover">
         <button class="w3-button w3-black">Ansichten</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="korper3.html" class="w3-bar-item w3-button">Skelett vorne</a>
-            <a href="korper4.html" class="w3-bar-item w3-button">Skelett hinten</a>
-            <a href="korper5.html" class="w3-bar-item w3-button">Skelett seitlich</a>
+            <a href="korper/korper3.html" class="w3-bar-item w3-button">Skelett vorne</a>
+            <a href="korper/korper4.html" class="w3-bar-item w3-button">Skelett hinten</a>
+            <a href="korper/korper5.html" class="w3-bar-item w3-button">Skelett seitlich</a>
         </div>
     </div>
 </div>
