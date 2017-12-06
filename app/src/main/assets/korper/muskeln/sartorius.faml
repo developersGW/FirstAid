@@ -1,0 +1,38 @@
+
+<title>Musculus Sartorius</title>
+<page>
+
+<link rel="stylesheet" href="korper/korper.css">
+<body>
+
+<div class="map">
+    <img src="img/anatomie/muskeln/sartorius.png" alt="" />
+    <div id="pin-1" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-2" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-3" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+- **Lage**:         Innenseite des Oberschenkels<br>
+- **Ursprung**:     Vorderer, oberer Darmbeinstachel<br>
+- **Ansatz**:       Innerer Schienbeinkopf<br>
+- **Hauptfunktion**:Der Muskel beugt das Bein im Hüftgelenk und dreht es nach außen. Weiterhin spreizt er das Bein seitlich ab, beugt im Kniegelenk und deht das Bein nach innen.<br>
+- **Gelenk**:       Hüftgelenk, Kniegelenk<br>
+- **Antagonist**:   Alle Muskeln, die an der Hüft und Kniegelenksstreckung beteiligt sind sowie diejenigen, die das Bein zur Körpermitte heranziehen.<br>
+
+</body>
+
+</page>

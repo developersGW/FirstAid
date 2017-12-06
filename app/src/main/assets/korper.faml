@@ -11,7 +11,7 @@
     <div class="tim-dropdown-hover">
         <button class="tim-button tim-black">Ansichten</button>
         <div class="tim-dropdown-content tim-bar-block tim-border">
-            <a href="korper/korper1.html" class="tim-bar-item tim-button">Muskeln vorne</a>
+            <a href="korper/korper1.faml" class="tim-bar-item tim-button">Muskeln vorne</a>
             <a href="korper/korper2.html" class="tim-bar-item tim-button">Muskeln hinten</a>
         </div>
     </div>
@@ -27,6 +27,20 @@
             <a href="korper/korper3.html" class="tim-bar-item tim-button">Skelett vorne</a>
             <a href="korper/korper4.html" class="tim-bar-item tim-button">Skelett hinten</a>
             <a href="korper/korper5.html" class="tim-bar-item tim-button">Skelett seitlich</a>
+        </div>
+    </div>
+</div>
+
+- **Problem** : Mit .faml lassen sich die HTML Seiten nur implementieren, wenn sie direkt im Verzeichnis assets liegen. Dieser Fehler sollte bitte dringend behoben werden, so dass eine übersichtlichere Struktur aufgebaut werden kann.
+
+<div class="tim-container">
+    <h2>Einzelne Muskeln (Faml editiert)</h2>
+    <p>Wähle eine Ansicht.</p>
+    <div class="tim-dropdown-hover">
+        <button class="tim-button tim-black">Ansichten</button>
+        <div class="tim-dropdown-content tim-bar-block tim-border">
+            <a href="semimembranosus.faml" class="tim-bar-item tim-button">Semimembranosus</a>
+            <a href="sartorius.faml" class="tim-bar-item tim-button">Sartorius</a>
         </div>
     </div>
 </div>
