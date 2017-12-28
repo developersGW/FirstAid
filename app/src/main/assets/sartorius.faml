@@ -6,7 +6,7 @@
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/sartorius.png" alt="" />
+    <img src="img/anatomie/muskeln/bauch.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>

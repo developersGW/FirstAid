@@ -2,7 +2,7 @@
 <title>Unser Körper</title>
 <page>
 
-<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="tim/test.css">
 <body>
 
 <div class="tim-container">
@@ -36,13 +36,32 @@
 <div class="tim-container">
     <h2>Einzelne Muskeln (Faml editiert)</h2>
     <p>Wähle eine Ansicht.</p>
-    <div class="tim-dropdown-hover">
-        <button class="tim-button tim-black">Ansichten</button>
-        <div class="tim-dropdown-content tim-bar-block tim-border">
-            <a href="semimembranosus.faml" class="tim-bar-item tim-button">Semimembranosus</a>
-            <a href="sartorius.faml" class="tim-bar-item tim-button">Sartorius</a>
-        </div>
-    </div>
+        <div class="tim-dropdown-hover">
+            <button class="tim-button tim-black">Bauch/Brust</button>
+             <div class="tim-dropdown-content tim-bar-block tim-border">
+                 <a href="pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
+                 <a href="pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
+                 <a href="rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
+                 <a href="transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
+                 <a href="obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
+                 <a href="obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
+                 <a href="serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
+             </div>
+         </div>
+</div>
+<div class="tim-container">
+        <div class="tim-dropdown-hover">
+            <button class="tim-button tim-black">Rücken/Nacken</button>
+             <div class="tim-dropdown-content tim-bar-block tim-border">
+                 <a href="pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
+                 <a href="pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
+                 <a href="rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
+                 <a href="transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
+                 <a href="obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
+                 <a href="obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
+                 <a href="serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
+             </div>
+         </div>
 </div>
 
 </body>
