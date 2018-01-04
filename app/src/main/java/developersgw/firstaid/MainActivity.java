@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+@SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity {
 
     ProgressDialog dialog;
@@ -209,6 +210,12 @@ public class MainActivity extends AppCompatActivity {
                     });
             builder.create().show();
         }
+
+        @JavascriptInterface
+        public void map() {
+            Intent intent = new Intent(MainActivity.this, MapActivity3.class);
+            startActivity(intent);
+        }
     }
 
     private void goBack() {
@@ -232,4 +239,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-}
+    public void openMapActivity(MenuItem item) {
+        //Toast.makeText(getApplicationContext(), "Hier entsteht die MapActivity.", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MapActivity3.class);
+        startActivity(intent);
+    }
+    }
