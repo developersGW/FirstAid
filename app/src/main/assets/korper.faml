@@ -39,13 +39,13 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Bauch/Brust</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
-                 <a href="pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
-                 <a href="rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
-                 <a href="transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
-                 <a href="obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
-                 <a href="obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
-                 <a href="serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
+                 <a href="korper/bauch/pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
+                 <a href="korper/bauch/pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
+                 <a href="korper/bauch/rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
+                 <a href="korper/bauch/transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
+                 <a href="korper/bauch/obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
+                 <a href="korper/bauch/obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
+                 <a href="korper/bauch/serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
              </div>
          </div>
 </div>
@@ -53,16 +53,58 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Rücken/Nacken</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
-                 <a href="pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
-                 <a href="rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
-                 <a href="transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
-                 <a href="obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
-                 <a href="obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
-                 <a href="serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
+                 <a href="korper/ruecken/trapezius.faml" class="tim-bar-item tim-button">Trapezius</a>
+                 <a href="korper/ruecken/latissimusdorsi.faml" class="tim-bar-item tim-button">Latissimus Dorsi</a>
+                 <a href="korper/ruecken/rhomboideusmajorminor.faml" class="tim-bar-item tim-button">Rhomboideus Major/Minor</a>
+                 <a href="korper/ruecken/levatorscapulae.faml" class="tim-bar-item tim-button">Levator Scapulae</a>
+                 <a href="korper/ruecken/quadratuslomborum.faml" class="tim-bar-item tim-button">Quadratus Lomborum</a>
+                 <a href="korper/ruecken/erectorspinae.faml" class="tim-bar-item tim-button">Erector Spinae</a>
              </div>
          </div>
 </div>
+<div class="tim-container">
+        <div class="tim-dropdown-hover">
+            <button class="tim-button tim-black">Arm & Schulter</button>
+             <div class="tim-dropdown-content tim-bar-block tim-border">
+                 <a href="korper/arm/deltoideus.faml" class="tim-bar-item tim-button">Deltoideus</a>
+                 <a href="korper/arm/deltoideus.faml" class="tim-bar-item tim-button">Deltoideus</a>
+                 <a href="korper/arm/teresminor.faml" class="tim-bar-item tim-button">Teres Minor</a>
+                 <a href="korper/arm/teresmajor.faml" class="tim-bar-item tim-button">Teres Major</a>
+                 <a href="korper/arm/supraspinatus.faml" class="tim-bar-item tim-button">Supraspinatus</a>
+                 <a href="korper/arm/infraspinatus.faml" class="tim-bar-item tim-button">Infraspinatus</a>
+                 <a href="korper/arm/bicepsbrachii.faml" class="tim-bar-item tim-button">Biceps Brachii</a>
+                 <a href="korper/arm/tricepsbrachii.faml" class="tim-bar-item tim-button">Triceps Brachii</a>
+             </div>
+         </div>
+</div>
+<div class="tim-container">
+        <div class="tim-dropdown-hover">
+            <button class="tim-button tim-black">Beine&Füße</button>
+             <div class="tim-dropdown-content tim-bar-block tim-border">
+                 <a href="korper/bein/iliopsoas.faml" class="tim-bar-item tim-button">Iliopsoas</a>
+                 <a href="korper/bein/glutaeusmaximus.faml" class="tim-bar-item tim-button">Glutaeus Maximus</a>
+                 <a href="korper/bein/glutaeusminimus.faml" class="tim-bar-item tim-button">Glutaeus Minimus</a>
+                 <a href="korper/bein/tensorfasciaelatae.faml" class="tim-bar-item tim-button">Tensor Fasciaelatae</a>
+                 <a href="korper/bein/gracilils.faml" class="tim-bar-item tim-button">Gracilils</a>
+                 <a href="korper/bein/pectineus.faml" class="tim-bar-item tim-button">Pectineus</a>
+                 <a href="korper/bein/adductorlongus.faml" class="tim-bar-item tim-button">Adductor Longus</a>
+                 <a href="korper/bein/adductorbrevis.faml" class="tim-bar-item tim-button">Adductor Brevis</a>
+                 <a href="korper/bein/adductormagnus.faml" class="tim-bar-item tim-button">Adductor Magnus</a>
+                 <a href="korper/bein/quadricepsfemoris.faml" class="tim-bar-item tim-button">Quadriceps Femoris</a>
+                 <a href="korper/bein/bicepsfemoris.faml" class="tim-bar-item tim-button">Biceps Femoris</a>
+                 <a href="korper/bein/asemitendinosus.faml" class="tim-bar-item tim-button">Semitendinosus</a>
+                 <a href="korper/bein/semiemembranosus.faml" class="tim-bar-item tim-button">Semiemembranosus</a>
+                 <a href="korper/bein/sartorius.faml" class="tim-bar-item tim-button">Sartorius</a>
+                 <a href="korper/bein/gastrocnemius.faml" class="tim-bar-item tim-button">Gastrocnemius</a>
+                 <a href="korper/bein/soleus.faml" class="tim-bar-item tim-button">Soleus</a>
+                 <a href="korper/bein/tibialisanterior.faml" class="tim-bar-item tim-button">Tibialis Anterior</a>
+                 <a href="korper/bein/tibialisposterior.faml" class="tim-bar-item tim-button">Tibialis Posterior</a>
+
+             </div>
+         </div>
+</div>
+
+<p>Quelle: DTB Katalog.</p>
 
 </body>
 </page>

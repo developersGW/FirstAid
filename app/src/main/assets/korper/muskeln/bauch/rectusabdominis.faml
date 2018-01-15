@@ -1,0 +1,38 @@
+
+<title>Musculus Rectus Abdominis</title>
+<page>
+
+<link rel="stylesheet" href="korper/korper.css">
+<body>
+
+<div class="map">
+    <img src="img/anatomie/muskeln/bauch/rectusabdominis.png" alt="" />
+    <div id="pin-1" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-2" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-3" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+- **Lage**:         Vorne am Rumpf<br>
+- **Ursprung**:     Unteres Ende des Brustbeins, 5. -7. Rippenknorpel<br>
+- **Ansatz**:       Oberer Rand des Schambeins<br>
+- **Hauptfunktion**:Bei fixiertem Becken beugt der Muskkel die Wirbelsäule nach vorn. Bie fixiertem Brustkorb richtet er das Becken auf.<br>
+- **Gelenk**:       Gelenke der Wirbelsäule<br>
+- **Antagonist**:   Langer Ruückenmuskel<br>
+
+</body>
+
+</page>
