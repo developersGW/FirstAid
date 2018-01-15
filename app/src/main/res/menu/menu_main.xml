@@ -11,6 +11,13 @@
         app:showAsAction="always"/>
 
     <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_map"
+        android:title="Map"
+        android:onClick="openMapActivity"
+        app:showAsAction="ifRoom"/>
+
+    <item
         android:title="Platz für dauerhaft anzuzeigende Menüelemente"
         android:enabled="false"
         app:showAsAction="never"/>

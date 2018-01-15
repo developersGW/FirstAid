@@ -70,6 +70,9 @@
       function alert(message, title) {
         firstaid.dialog(message, title || null);
       }
+      function map(){
+      firstaid.map();
+      }
       window.onerror = function(message) {
         selectClass("title").innerHTML = "Parsingfehler";
         document.getElementsByTagName("body")[0].innerHTML = "<h1>⚠️ Parsingfehler</h1><p>Aufgrund eines internen Skriptfehlers können die gewünschten Inhalte leider nicht dargestellt werden.</p><p>" + message + "</p>";

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        popupTheme="@style/Widget.AppCompat.Light.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="visible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mylocationButton"
+        android:layout_width="@dimen/floatingButton"
+        android:layout_height="@dimen/floatingButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="80dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:focusable="true"
+        mapbox:rippleColor="@color/colorAccent"
+        mapbox:srcCompat="@drawable/ic_mylocation" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/zoomoutButton"
+        android:layout_width="@dimen/floatingButton"
+        android:layout_height="@dimen/floatingButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:focusable="true"
+        mapbox:rippleColor="@color/colorAccent"
+        mapbox:srcCompat="@drawable/ic_remove" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/zoominButton"
+        android:layout_width="@dimen/floatingButton"
+        android:layout_height="@dimen/floatingButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:focusable="true"
+        mapbox:rippleColor="@color/colorAccent"
+        mapbox:srcCompat="@drawable/ic_add" />
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="48.305"
+        mapbox:mapbox_cameraTargetLng="10.917"
+        mapbox:mapbox_cameraZoom="14"
+        mapbox:mapbox_myLocation="true"
+        mapbox:mapbox_styleUrl="mapbox://styles/developersgw/cjbz84tno4gam2sqy6nedhowq">
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+</RelativeLayout>

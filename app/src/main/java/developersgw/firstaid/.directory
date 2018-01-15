@@ -1,0 +1,9 @@
+[Dolphin]
+PreviewsShown=true
+SortRole=type
+Timestamp=2018,1,3,23,7,47
+Version=4
+VisibleRoles=Icons_text,Icons_modificationtime,Icons_size,Icons_creationtime
+
+[Settings]
+HiddenFilesShown=true

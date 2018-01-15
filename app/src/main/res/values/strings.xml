@@ -77,4 +77,6 @@
     <!-- Checks if the user did already agree to the license -->
     <string name="previouslyStarted">false</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="user_location_permission_not_granted">SIe haben die Berechtigung zum Zugriff auf Ihren Standort nicht erteilt.</string>
+    <string name="title_activity_map2">MapActivity2</string>
 </resources>
