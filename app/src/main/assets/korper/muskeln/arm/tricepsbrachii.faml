@@ -1,12 +1,15 @@
 
-<title>Musculus Serratus Anterior</title>
+<title>Musculus Trieps Brachii</title>
+
+<subtitle>Dreiköpfiger Armmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/serratusanterior.png" alt="" />
+    <img src="img/anatomie/muskeln/arm/tricepsbrachii.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Seitlich am Rumpf<br>
-- **Ursprung**:     1. bis 9. Rippe<br>
-- **Ansatz**:       Innerer Rand des Schulterblatts<br>
-- **Hauptfunktion**:Der Muskel stabilisiert das Schulterblatt am Rumpf. Weiterhin dreht er das Schulterblatt so, dass der Arm nach vorne geführt und über 90° angehoben werden kann.<br>
-- **Gelenk**:       -<br>
-- **Antagonist**:   Großer und kleiner Rautenmusklen, Kapuzenmuskel.<br>
+- **Lage**:         Hinten am Oberarm<br>
+- **Ursprung**:     Der lange Kopf entspringt vom Schulterblatt am Unterrand der Schulterpfanne. Die beiden anderen Köpfe von der Hinterfläche des Oberarmbeines<br>
+- **Ansatz**:       Elle unterhalb des Ellbogengelenks<br>
+- **Hauptfunktion**:Alle drei Köpfe des Muskels strecken das Ellbogengelenk und der lange Kopf führt den Arm nach hinten.<br>
+- **Gelenk**:       Schultergelenk, Ellbogengelenk<br>
+- **Antagonist**:   Zweiköpfiger Armmuskel (bizeps brachii)<br>
 
 </body>
 

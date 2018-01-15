@@ -1,11 +1,15 @@
+
 <title>Musculus Semimembranosus</title>
+
+<subtitle>Plattsehnenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/semimembranosus.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/semimembranosus.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -23,7 +27,7 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 - **Lage**:         An der Rückseite des Oberschenkels (oberflächlich liegend)<br>
 - **Ursprung**:     Sitzbein<br>

@@ -1,12 +1,15 @@
 
 <title>Musculus Sartourius</title>
+
+<subtitle>Schneidermuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/sartorius.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,7 +27,7 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 - **Lage**:         Innenseite des Oberschenkels<br>
 - **Ursprung**:     Vorderer, oberer Darmbeinstachel<br>

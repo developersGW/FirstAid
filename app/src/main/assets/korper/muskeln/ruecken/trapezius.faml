@@ -1,12 +1,15 @@
 
-<title>Musculus Pectorialis Major</title>
+<title>Musculus Trapezius</title>
+
+<subtitle>Kapuzenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/pectorialismajor.png" alt="" />
+    <img src="img/anatomie/muskeln/ruecken/trapezius.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Vorne, oben am Rumpf<br>
-- **Ursprung**:     Unterer Teil des Schlüsselbeins, seitlich am Brustbein und Teile der Rippenknorpel<br>
-- **Ansatz**:       Außenseite des Oberarms unterhalb des Schultergelenks<br>
-- **Hauptfunktion**:Der Muskel führt den Arm aus allen Körperpositionen nach vorne zur Körpermitte hin und dreht ihn einwärts.<br>
-- **Gelenk**:       Schultergelenk<br>
-- **Antagonist**:   Mehrere Musklen im Schulter- und Rückenbereich<br>
+- **Lage**:         Am oberen Rücken (Brustwirbelsäule) und im Nackenbereich (Halswirbelsäule)<br>
+- **Ursprung**:     Hinerhautschuppe, Dornfortsätze der Hals und Brustwirbel<br>
+- **Ansatz**:       Schlüsselbein, Schulterhöhe, Schulterblattgräte<br>
+- **Hauptfunktion**:Der obere absteigende Teil des Muskels zieht die Schulterblätter/Schultern nach oben. Der mittlere, querverlaufende Anteil nähert die Schulterblätter der Wirbelsäule an. Dr untere, aufsteigende Anteil senkt die Schultern.<br>
+- **Gelenk**:       Schulterblatt-Brustkort-Gleitlager<br>
+- **Antagonist**:   Der Muskel selbst und zum anderen der große Brustmuskel.<br>
 
 </body>
 

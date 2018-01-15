@@ -1,12 +1,15 @@
 
-<title>Musculus Serratus Anterior</title>
+<title>Musculus Tibialis Posterior</title>
+
+<subtitle>Hinterer Schienbeinmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/serratusanterior.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/tibialisposterior.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -26,12 +29,12 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Seitlich am Rumpf<br>
-- **Ursprung**:     1. bis 9. Rippe<br>
-- **Ansatz**:       Innerer Rand des Schulterblatts<br>
-- **Hauptfunktion**:Der Muskel stabilisiert das Schulterblatt am Rumpf. Weiterhin dreht er das Schulterblatt so, dass der Arm nach vorne geführt und über 90° angehoben werden kann.<br>
-- **Gelenk**:       -<br>
-- **Antagonist**:   Großer und kleiner Rautenmusklen, Kapuzenmuskel.<br>
+- **Lage**:         Hinten am Schienbein<br>
+- **Ursprung**:     Hinterfläche des Schien- und Wadenbeins<br>
+- **Ansatz**:       Kahnbein, Keilbeine und Basis des Mittelfußknochens<br>
+- **Hauptfunktion**:Der Muskel ist an der Senkung des Fußes im oberen Sprunggelenk sowie beim Anheben des inneren Fußrandes im unteren Sprunggelenk beteiligt.<br>
+- **Gelenk**:       Oberes und unteres Sprunggelenk<br>
+- **Antagonist**:   Vorderer Schienbeinmuskel (tibialis anterior)<br>
 
 </body>
 

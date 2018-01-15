@@ -7,10 +7,8 @@
   <ul class="buttonlist">
     <a href="dummy.faml"><li>Notfallmaßnahmen</li></a>
     <a href="korper.faml"><li>Unser Körper</li></a>
-    <a href="tim/tim.html"><li>3D TESTVERSUCHE</li></a>
     <a href="javascript:alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
-    <a href="tim/tutorial2.html"><li>Einführung</li></a>
-    <a href="tim/test.html"><li>Einführungstester</li></a>
+    <a href="tim/tutorial.html"><li>Einführung</li></a>
     <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
     <a href="http://firstaid.tim-ney.de/blog-app/"><li>Neuigkeiten</li></a>
     <a href="dummy.faml"><li>Einstellungen</li></a>

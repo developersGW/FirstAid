@@ -1,12 +1,15 @@
 
-<title>Musculus Obliquus Internus Abdominis</title>
+<title>Musculus Semitendinosus</title>
+
+<subtitle>Halbsehenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/obliquusinternusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/semitendinosus.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Seitlich am Rumpf<br>
-- **Ursprung**:     Oberer Rand der Beckenschaufeln, Leistenband<br>
-- **Ansatz**:       9. bis 12. Rippe, Linea alba<br>
-- **Hauptfunktion**:Bei beiseitiger Kontraktion unterstützt der Muskel das Beugen des Rumpfes nach vorne. Bei einseitiger Kontraktion neigt er den Rumpf zur Seite.<br>
-- **Gelenk**:       Gelenke der Wirbelsäule<br>
-- **Antagonist**:   Schräge Bauchmuskulatur<br>
+- **Lage**:         An der Rückseite des Oberschenkels<br>
+- **Ursprung**:     Sitzbeinhöcker<br>
+- **Ansatz**:       Mit einer langen Sehne innen an der Kniekehle vorbei bis zum Schienbeinkopf<br>
+- **Hauptfunktion**:Der Muskel ist an der Kniebeugung und Hüftstreckung beteiligt. Er stabilisiert das Kniegelenk von hinten beim Gehen.<br>
+- **Gelenk**:       Hüftgelenk, Kniegelenk<br>
+- **Antagonist**:   Vierköpfiger Oberschenkelmuskel<br>
 
 </body>
 

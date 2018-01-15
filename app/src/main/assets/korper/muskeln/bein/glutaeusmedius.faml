@@ -1,0 +1,41 @@
+
+<title>Musculus Glutaeus Medius</title>
+
+<subtitle>Mittlerer Gesäßmuskel</subtitle>
+
+<page>
+
+<link rel="stylesheet" href="korper/korper.css">
+<body>
+
+<div class="map">
+    <img src="img/anatomie/muskeln/bein/glutaeusmedius.png" alt="" />
+    <div id="pin-1" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-2" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+    <div id="pin-3" class="box">
+        <div class="pin-text">
+            <h3>TEST</h3>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+- **Lage**:         Hinterer Beckenbereich<br>
+- **Ursprung**:     Außenfläche der Darmbeinschaufel<br>
+- **Ansatz**:       Großer Rollhügel an der Außenseite des Oberschenkels unterhalb des Hüftgelenks<br>
+- **Hauptfunktion**:Der Muskel spreizt das Bein ab und verhindert das Abfallen des Beckens zur Gegenseite.<br>
+- **Gelenk**:       Hüftgelenk<br>
+- **Antagonist**:   Muskeln, die das Bein an den Körper heranziehen (Schenkelanzieher).<br>
+
+</body>
+
+</page>

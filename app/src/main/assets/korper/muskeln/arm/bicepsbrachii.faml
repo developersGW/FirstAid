@@ -1,12 +1,15 @@
 
-<title>Musculus Transversus Abdominis</title>
+<title>Musculus Biceps Brachii</title>
+
+<subtitle>Zweiköpfiger Armmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/transversusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/arm/bicepsbrachii.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Due Taille umschließend<br>
-- **Ursprung**:     Innenfläche des 7. bis 12. Rippenknorpels, oberer Rand der Beckenschaufeln, Lenden-Rückenbinde<br>
-- **Ansatz**:       Sehnige Verbindung zu Linea alba<br>
-- **Hauptfunktion**:Der Muskel is an keiner Bewegung direkt beteiligt. Er ist Stabilisator der Lebdenwirbelsäule.<br>
-- **Gelenk**:       -<br>
-- **Antagonist**:   -<br>
+- **Lage**:         Vorne am Oberarm<br>
+- **Ursprung**:     Der kurze Kopf entspringt vom Rabenschnabelfortsatz, der lange Kopf knapp oberhalb der Schultergelenkpfanne<br>
+- **Ansatz**:       Speiche unterhalb des Ellbogengelenks<br>
+- **Hauptfunktion**:Der Muskel beugt den Arm im Ellbogengelenk, dreht bei gebeugtem Arm die Handfläche nach oben und führt den Arm nach vorne.<br>
+- **Gelenk**:       Schultergelenk, Ellbogengelenk<br>
+- **Antagonist**:   Dreiköpfiger Oberarmmuskel (triceps brachii) und verschiedene Unterarmmusklen<br>
 
 </body>
 

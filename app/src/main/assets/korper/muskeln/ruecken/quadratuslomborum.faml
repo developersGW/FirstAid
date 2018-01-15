@@ -1,12 +1,15 @@
 
-<title>Musculus Externus Abdominis</title>
+<title>Musculus Quadratus Lomborum</title>
+
+<subtitle>Viereckiger Lendenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/externusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/ruecken/quadratuslumborum.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Verne, seitlich am Rumpf<br>
-- **Ursprung**:     Außenseite der 5. bis 12. Wirbel<br>
-- **Ansatz**:       Oberer Rand der Beckenschaufeln, Leistenband, Linea alba<br>
-- **Hauptfunktion**:Bei beidseitiger Kontraktion unterstützt der Muskel das Beugen des Rumpfes nach vorne. Bei einseitiger Kontraktion negit er den Rumpf zu Seite.<br>
+- **Lage**:         Hinten, unten am Rumpf<br>
+- **Ursprung**:     Oberer Rand der Beckenschaufeln<br>
+- **Ansatz**:       12. Rippe, Querfortsätze der Lendenwirbel<br>
+- **Hauptfunktion**:Bei einseitiger Kontraktion neigt der Muskel den Oberkörper zur Seite. Bei Beidseitiger Kontraktion sichert er die Lendenlordose. Weiterhin stabilisiert er den Rumpf gegenüber dem Becken beim Gehen.<br>
 - **Gelenk**:       Gelenke der Wirbelsäule<br>
-- **Antagonist**:   Langer Rückenstrecker, schräge Bauchmuskulatur<br>
+- **Antagonist**:   Bei einseitiger Kontraktion ist auf der Gegenseite die schräge Bauchmuskulatur sowie der Muskel selbst Gegenspieler.<br>
 
 </body>
 

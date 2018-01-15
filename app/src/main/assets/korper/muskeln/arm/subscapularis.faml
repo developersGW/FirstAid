@@ -1,12 +1,15 @@
 
-<title>Musculus Obliquus Internus Abdominis</title>
+<title>Musculus Subscapularis</title>
+
+<subtitle>Unterschulterblattmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/obliquusinternusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/arm/subscapularis.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -26,12 +29,12 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Seitlich am Rumpf<br>
-- **Ursprung**:     Oberer Rand der Beckenschaufeln, Leistenband<br>
-- **Ansatz**:       9. bis 12. Rippe, Linea alba<br>
-- **Hauptfunktion**:Bei beiseitiger Kontraktion unterstützt der Muskel das Beugen des Rumpfes nach vorne. Bei einseitiger Kontraktion neigt er den Rumpf zur Seite.<br>
-- **Gelenk**:       Gelenke der Wirbelsäule<br>
-- **Antagonist**:   Schräge Bauchmuskulatur<br>
+- **Lage**:         An der Vorderseite des Schulterblatts<br>
+- **Ursprung**:     Schulterblattfläche vorne am Schulterblatt<br>
+- **Ansatz**:       Vorderseite des Oberarmkopfes<br>
+- **Hauptfunktion**:Der Muskel rotiert den Oberarm nach innen und stabilisiert den Oberarm im Schultergelenk.<br>
+- **Gelenk**:       Schultergelenk<br>
+- **Antagonist**:   Kleiner Rundmuskel (teres minor) und Untergrätenmuskel (infraspinatus)<br>
 
 </body>
 

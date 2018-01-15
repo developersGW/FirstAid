@@ -1,12 +1,15 @@
 
-<title>Musculus Pectorialis Major</title>
+<title>Musculus Pectineus</title>
+
+<subtitle>Kammmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/pectorialismajor.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/pectineus.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Vorne, oben am Rumpf<br>
-- **Ursprung**:     Unterer Teil des Schlüsselbeins, seitlich am Brustbein und Teile der Rippenknorpel<br>
-- **Ansatz**:       Außenseite des Oberarms unterhalb des Schultergelenks<br>
-- **Hauptfunktion**:Der Muskel führt den Arm aus allen Körperpositionen nach vorne zur Körpermitte hin und dreht ihn einwärts.<br>
-- **Gelenk**:       Schultergelenk<br>
-- **Antagonist**:   Mehrere Musklen im Schulter- und Rückenbereich<br>
+- **Lage**:         Inneseite des Oberschenkels<br>
+- **Ursprung**:     Schambeinkamm<br>
+- **Ansatz**:       Innen im oberern Drittel des Oberschenkelknochens<br>
+- **Hauptfunktion**:Der Muskel zieht den Oberschenkel heran und ist an der Beugung im Hüftgelenk beteiligt.<br>
+- **Gelenk**:       Hüftgelenk<br>
+- **Antagonist**:   Muskeln, die das Bein abspreizen und die Hüfte strecken.<br>
 
 </body>
 

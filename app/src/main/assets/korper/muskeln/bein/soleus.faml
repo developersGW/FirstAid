@@ -1,12 +1,15 @@
 
-<title>Musculus Pectorialis Minor</title>
+<title>Musculus Soleus</title>
+
+<subtitle>Schollenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/pectorialisminor.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/soleus.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Vorne, oben am Rumpf liegend<br>
-- **Ursprung**:     2. bis 5. Rippe<br>
-- **Ansatz**:       Rabenschnabelvorsatz<br>
-- **Hauptfunktion**:Der Muskel senkt das Schulterblatt nach vorne unten.<br>
-- **Gelenk**:       -<br>
-- **Antagonist**:   Oberer absteigender Abteil des Kapuzenmuskels<br>
+- **Lage**:         Rückseite des Unterschenkels<br>
+- **Ursprung**:     Wadenbeinköpfchen und oberes Drittel des Waden- und Schienbeins<br>
+- **Ansatz**:       Über die Achillessehne am Fersenbein<br>
+- **Hauptfunktion**:Der Muskel senkt den Fuß im oberen Sprunggelenk nach vorne unten.<br>
+- **Gelenk**:       Oberes Sprunggelenk<br>
+- **Antagonist**:   Vorderer Schienbeinmuskel (tibialis anterior)<br>
 
 </body>
 

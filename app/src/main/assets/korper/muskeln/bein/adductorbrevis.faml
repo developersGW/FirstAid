@@ -1,12 +1,15 @@
 
-<title>Musculus Serratus Anterior</title>
+<title>Musculus Adductor Brevis</title>
+
+<subtitle>Zweiköpfiger Schenkelstrecker</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/serratusanterior.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/adductorbrevis.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Seitlich am Rumpf<br>
-- **Ursprung**:     1. bis 9. Rippe<br>
-- **Ansatz**:       Innerer Rand des Schulterblatts<br>
-- **Hauptfunktion**:Der Muskel stabilisiert das Schulterblatt am Rumpf. Weiterhin dreht er das Schulterblatt so, dass der Arm nach vorne geführt und über 90° angehoben werden kann.<br>
-- **Gelenk**:       -<br>
-- **Antagonist**:   Großer und kleiner Rautenmusklen, Kapuzenmuskel.<br>
+- **Lage**:         Innenseite des Oberschenkels<br>
+- **Ursprung**:     Unterhalb des Schambeins<br>
+- **Ansatz**:       Innen im mittleren Drittel des Oberschenkelknochens<br>
+- **Hauptfunktion**:Der Muskeln zieht den Oberschenkel heran und ist an der Beugung im Hüftgelnek beteiligt.<br>
+- **Gelenk**:       Hüftgelenk<br>
+- **Antagonist**:   Muskeln, die das Bein abspreizen und die Hüfte strecken.<br>
 
 </body>
 

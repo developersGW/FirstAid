@@ -1,12 +1,15 @@
 
-<title>Musculus Pectorialis Major</title>
+<title>Musculus Gastrocnemius</title>
+
+<subtitle>Zwillingswadenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/pectorialismajor.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/gastrocnemius.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -26,12 +29,12 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Vorne, oben am Rumpf<br>
-- **Ursprung**:     Unterer Teil des Schlüsselbeins, seitlich am Brustbein und Teile der Rippenknorpel<br>
-- **Ansatz**:       Außenseite des Oberarms unterhalb des Schultergelenks<br>
-- **Hauptfunktion**:Der Muskel führt den Arm aus allen Körperpositionen nach vorne zur Körpermitte hin und dreht ihn einwärts.<br>
-- **Gelenk**:       Schultergelenk<br>
-- **Antagonist**:   Mehrere Musklen im Schulter- und Rückenbereich<br>
+- **Lage**:         An der Rückseite des Unterschenkels<br>
+- **Ursprung**:     Innere und äußere Oberschenkelrolle<br>
+- **Ansatz**:       Beide Köpfe vereinen sich und setzen über der Achillessehne am Fersenbein an.<br>
+- **Hauptfunktion**:Der Muskel ist an der Kniebeugung sowie am Senken des Fußes nach vorne unten (Fußstreckung) im oberen Sprunggelenk beteiligt.<br>
+- **Gelenk**:       Kniegelenk, oberes Sprunggelenk<br>
+- **Antagonist**:   Vorderer Schienbeinmuskel und vierköpfiger Oberschenkelmuskel<br>
 
 </body>
 

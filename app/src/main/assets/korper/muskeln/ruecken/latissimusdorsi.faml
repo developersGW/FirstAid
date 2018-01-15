@@ -1,12 +1,15 @@
 
-<title>Musculus Rectus Abdominis</title>
+<title>Musculus Latissimus Dorsi</title>
+
+<subtitle>Breiter Rückenmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/rectusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/ruecken/latissimusdorsi.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Vorne am Rumpf<br>
-- **Ursprung**:     Unteres Ende des Brustbeins, 5. -7. Rippenknorpel<br>
-- **Ansatz**:       Oberer Rand des Schambeins<br>
-- **Hauptfunktion**:Bei fixiertem Becken beugt der Muskkel die Wirbelsäule nach vorn. Bie fixiertem Brustkorb richtet er das Becken auf.<br>
-- **Gelenk**:       Gelenke der Wirbelsäule<br>
-- **Antagonist**:   Langer Ruückenmuskel<br>
+- **Lage**:         Hinten am Rumpf<br>
+- **Ursprung**:     Dornfortsätze der sechs unteren Brust- und Lendenwirbel, Kreuzbein und Darmbeinkamm, seitlich an den unteren vier Rippen<br>
+- **Ansatz**:       Innenseite des Oberarmes unterhalt des Schultergelenks<br>
+- **Hauptfunktion**:Bei herabhängendem Arm dreht der Muskel den Arm nach innen und zieht ihn nach hinten. Bei angehobenem Arm senkt er diesen. Weiter ist er bei der Adduktion des Armes beteiligt.<br>
+- **Gelenk**:       Schultergelenk<br>
+- **Antagonist**:   Mehrere Muskeln des Schultergürtels<br>
 
 </body>
 

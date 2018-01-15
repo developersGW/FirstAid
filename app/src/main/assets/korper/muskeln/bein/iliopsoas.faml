@@ -1,12 +1,15 @@
 
-<title>Musculus Externus Abdominis</title>
+<title>Musculus Iliopsoas</title>
+
+<subtitle>Lenden-Darmbeinmuskel</subtitle>
+
 <page>
 
 <link rel="stylesheet" href="korper/korper.css">
 <body>
 
 <div class="map">
-    <img src="img/anatomie/muskeln/bauch/externusabdominis.png" alt="" />
+    <img src="img/anatomie/muskeln/bein/iliopsoas.png" alt="" />
     <div id="pin-1" class="box">
         <div class="pin-text">
             <h3>TEST</h3>
@@ -24,14 +27,14 @@
     </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-- **Lage**:         Verne, seitlich am Rumpf<br>
-- **Ursprung**:     Außenseite der 5. bis 12. Wirbel<br>
-- **Ansatz**:       Oberer Rand der Beckenschaufeln, Leistenband, Linea alba<br>
-- **Hauptfunktion**:Bei beidseitiger Kontraktion unterstützt der Muskel das Beugen des Rumpfes nach vorne. Bei einseitiger Kontraktion negit er den Rumpf zu Seite.<br>
-- **Gelenk**:       Gelenke der Wirbelsäule<br>
-- **Antagonist**:   Langer Rückenstrecker, schräge Bauchmuskulatur<br>
+- **Lage**:         Übergang von der Lendenwirbelsäule zur Oberschenkelvorderseite<br>
+- **Ursprung**:     Der Lendenmuskel (poas major)entspringt im LWS-Bereich und dem 12.Brustwirbel an der seitlichen Fläche der Wirbelkörper<br>
+- **Ansatz**:       Gemeinsam an der Innenseite des Oberschenkels unterhalb des Hüftgelenks<br>
+- **Hauptfunktion**:Der Muskelb geugt im Hüftgelenk. Bei fixiertem Becken kippt der Muskel das Becken nach vorne.<br>
+- **Gelenk**:       Gelneke der Wirbelsäule, Hüftgelenk<br>
+- **Antagonist**:   Großer Gesäßmuskel (glutaeus maximus) und die ischiokorale Muskulatur<br>
 
 </body>
 
