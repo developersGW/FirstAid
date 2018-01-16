@@ -5,7 +5,8 @@
 <subtitle>Deine Sicherheit steht im Vordergrund!</subtitle>
 <page>
   <ul class="buttonlist">
-    <a href="dummy.faml"><li>Notfallmaßnahmen</li></a>
+    <a href="Index.faml"><li>A und O der ersten Hilfe</li></a>
+    <a href="EmergencyOptions.faml"><li>Notfallmaßnahmen</li></a>
     <a href="korper.faml"><li>Unser Körper</li></a>
     <a href="javascript:alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
     <a href="tim/tutorial.html"><li>Einführung</li></a>
