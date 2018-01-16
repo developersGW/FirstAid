@@ -10,24 +10,9 @@
 
 <div class="map">
     <img src="img/anatomie/muskeln/arm/subscapularis.png" alt="" />
-    <div id="pin-1" class="box">
-        <div class="pin-text">
-            <h3>TEST</h3>
-        </div>
-    </div>
-    <div id="pin-2" class="box">
-        <div class="pin-text">
-            <h3>TEST</h3>
-        </div>
-    </div>
-    <div id="pin-3" class="box">
-        <div class="pin-text">
-            <h3>TEST</h3>
-        </div>
-    </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 - **Lage**:         An der Vorderseite des Schulterblatts<br>
 - **Ursprung**:     Schulterblattfläche vorne am Schulterblatt<br>

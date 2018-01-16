@@ -10,19 +10,9 @@
 
 <div class="map">
     <img src="img/anatomie/muskeln/bein/quadricepsfemoris.png" alt="" />
-    <div id="pin-1" class="box">
-        <div class="pin-text">
-            <h3>TEST</h3>
-        </div>
-    </div>
     <div id="pin-2" class="box">
         <div class="pin-text">
-            <h3>TEST</h3>
-        </div>
-    </div>
-    <div id="pin-3" class="box">
-        <div class="pin-text">
-            <h3>TEST</h3>
+            <h3>Becken</h3>
         </div>
     </div>
 </div>

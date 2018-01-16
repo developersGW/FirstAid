@@ -1,5 +1,50 @@
 /* Tim Ney */
 
+h1, h2 {
+        font-weight: normal;
+        margin: 0;
+      }
+      #content {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #ccc;
+        padding: 20px;
+      }
+      body {
+        background: #eee;
+      }
+      a {
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      .page {
+        margin-bottom: 0;
+      }
+      .buttonlist {
+        list-style-type: none;
+        padding: 0;
+        color: #444;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .buttonlist li {
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: .1s;
+        filter: grayscale(100%);
+        color: #f00;
+      }
+      .buttonlist li::before {
+        content: "» ";
+      }
+      .buttonlist li:active {
+        background: #ddd;
+        filter: none;
+      }
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +55,6 @@
   margin:10px;
   position: absolute;
   display: inline-block;
-
 }
 
 .map img {
