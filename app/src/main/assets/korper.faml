@@ -38,13 +38,13 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Bauch & Brust</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="korper/muskeln/bauch/pectorialismajor.faml" class="tim-bar-item tim-button">Pectorialis Major</a>
-                 <a href="korper/muskeln/bauch/pectorialisminor.faml" class="tim-bar-item tim-button">Pectorialis Minor</a>
-                 <a href="korper/muskeln/bauch/rectusabdominis.faml" class="tim-bar-item tim-button">Rectus Abdmoninis</a>
-                 <a href="korper/muskeln/bauch/transversusabdominis.faml" class="tim-bar-item tim-button">Transversus Abdominis</a>
-                 <a href="korper/muskeln/bauch/obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Externus Abdominis</a>
-                 <a href="korper/muskeln/bauch/obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Obliquus Internus Abdominis</a>
-                 <a href="korper/muskeln/bauch/serratusanterior.faml" class="tim-bar-item tim-button">Serratus Anterior</a>
+                 <a href="korper/muskeln/bauch/pectorialismajor.faml" class="tim-bar-item tim-button">Großer Brustmuskel - Pectorialis Major</a>
+                 <a href="korper/muskeln/bauch/pectorialisminor.faml" class="tim-bar-item tim-button">Kleiner Brustmuskel - Pectorialis Minor</a>
+                 <a href="korper/muskeln/bauch/rectusabdominis.faml" class="tim-bar-item tim-button">Gerader Brustmuskel - Rectus Abdmoninis</a>
+                 <a href="korper/muskeln/bauch/transversusabdominis.faml" class="tim-bar-item tim-button">Querliegender Brustmuskel - Transversus Abdominis</a>
+                 <a href="korper/muskeln/bauch/obliquusexternusabdominis.faml" class="tim-bar-item tim-button">Äußerer schräger Bauchmuskel - Obliquus Externus Abdominis</a>
+                 <a href="korper/muskeln/bauch/obliquusinternusabdominis.faml" class="tim-bar-item tim-button">Innerer schräger Bauchmuskel - Obliquus Internus Abdominis</a>
+                 <a href="korper/muskeln/bauch/serratusanterior.faml" class="tim-bar-item tim-button">Vorderer Sägemuskel - Serratus Anterior</a>
              </div>
          </div>
 </div>
@@ -53,12 +53,12 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Rücken & Nacken</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="korper/muskeln/ruecken/trapezius.faml" class="tim-bar-item tim-button">Trapezius</a>
-                 <a href="korper/muskeln/ruecken/latissimusdorsi.faml" class="tim-bar-item tim-button">Latissimus Dorsi</a>
-                 <a href="korper/muskeln/ruecken/rhomboideusmajorminor.faml" class="tim-bar-item tim-button">Rhomboideus Major/Minor</a>
-                 <a href="korper/muskeln/ruecken/levatorscapulae.faml" class="tim-bar-item tim-button">Levator Scapulae</a>
-                 <a href="korper/muskeln/ruecken/quadratuslomborum.faml" class="tim-bar-item tim-button">Quadratus Lomborum</a>
-                 <a href="korper/muskeln/ruecken/erectorspinae.faml" class="tim-bar-item tim-button">Erector Spinae</a>
+                 <a href="korper/muskeln/ruecken/trapezius.faml" class="tim-bar-item tim-button">Kapuzenmuskel - Trapezius</a>
+                 <a href="korper/muskeln/ruecken/latissimusdorsi.faml" class="tim-bar-item tim-button">Breiter Rückenmuskel - Latissimus Dorsi</a>
+                 <a href="korper/muskeln/ruecken/rhomboideusmajorminor.faml" class="tim-bar-item tim-button">Großer/Kleiner Rautenmuskel - Rhomboideus Major/Minor</a>
+                 <a href="korper/muskeln/ruecken/levatorscapulae.faml" class="tim-bar-item tim-button">Schulterblattheber - Levator Scapulae</a>
+                 <a href="korper/muskeln/ruecken/quadratuslomborum.faml" class="tim-bar-item tim-button">Viereckiger Lendenmuskel - Quadratus Lomborum</a>
+                 <a href="korper/muskeln/ruecken/erectorspinae.faml" class="tim-bar-item tim-button">Langer Rückenstrecker - Erector Spinae</a>
              </div>
          </div>
 </div>
@@ -67,14 +67,14 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Arm & Schulter</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="korper/muskeln/arm/deltoideus.faml" class="tim-bar-item tim-button">Deltoideus</a>
-                 <a href="korper/muskeln/arm/teresminor.faml" class="tim-bar-item tim-button">Teres Minor</a>
-                 <a href="korper/muskeln/arm/teresmajor.faml" class="tim-bar-item tim-button">Teres Major</a>
-                 <a href="korper/muskeln/arm/supraspinatus.faml" class="tim-bar-item tim-button">Supraspinatus</a>
-                 <a href="korper/muskeln/arm/supscapularis.faml" class="tim-bar-item tim-button">Supscapularis</a>
-                 <a href="korper/muskeln/arm/infraspinatus.faml" class="tim-bar-item tim-button">Infraspinatus</a>
-                 <a href="korper/muskeln/arm/bicepsbrachii.faml" class="tim-bar-item tim-button">Biceps Brachii</a>
-                 <a href="korper/muskeln/arm/tricepsbrachii.faml" class="tim-bar-item tim-button">Triceps Brachii</a>
+                 <a href="korper/muskeln/arm/deltoideus.faml" class="tim-bar-item tim-button">Deltamuskel - Deltoideus</a>
+                 <a href="korper/muskeln/arm/teresminor.faml" class="tim-bar-item tim-button">Kleiner Rundmuskel - Teres Minor</a>
+                 <a href="korper/muskeln/arm/teresmajor.faml" class="tim-bar-item tim-button">Großer Rundmuskel - Teres Major</a>
+                 <a href="korper/muskeln/arm/supraspinatus.faml" class="tim-bar-item tim-button">Obergrätenmuskel - Supraspinatus</a>
+                 <a href="korper/muskeln/arm/supscapularis.faml" class="tim-bar-item tim-button">Unterschulterblattmuskel - Supscapularis</a>
+                 <a href="korper/muskeln/arm/infraspinatus.faml" class="tim-bar-item tim-button">Untergrätenmuskel - Infraspinatus</a>
+                 <a href="korper/muskeln/arm/bicepsbrachii.faml" class="tim-bar-item tim-button">Zweiköpfiger Armmuskel - Biceps Brachii</a>
+                 <a href="korper/muskeln/arm/tricepsbrachii.faml" class="tim-bar-item tim-button">Dreiköpfiger Armmuskel - Triceps Brachii</a>
              </div>
          </div>
 </div>
@@ -83,25 +83,25 @@
         <div class="tim-dropdown-hover">
             <button class="tim-button tim-black">Beine & Füße</button>
              <div class="tim-dropdown-content tim-bar-block tim-border">
-                 <a href="korper/muskeln/bein/iliopsoas.faml" class="tim-bar-item tim-button">Iliopsoas</a>
-                 <a href="korper/muskeln/bein/glutaeusmaximus.faml" class="tim-bar-item tim-button">Glutaeus Maximus</a>
-                 <a href="korper/muskeln/bein/glutaeusmedius.faml" class="tim-bar-item tim-button">Glutaeus Medius</a>
-                 <a href="korper/muskeln/bein/glutaeusminimus.faml" class="tim-bar-item tim-button">Glutaeus Minimus</a>
-                 <a href="korper/muskeln/bein/tensorfasciaelatae.faml" class="tim-bar-item tim-button">Tensor Fasciaelatae</a>
-                 <a href="korper/muskeln/bein/gracilils.faml" class="tim-bar-item tim-button">Gracilils</a>
-                 <a href="korper/muskeln/bein/pectineus.faml" class="tim-bar-item tim-button">Pectineus</a>
-                 <a href="korper/muskeln/bein/adductorlongus.faml" class="tim-bar-item tim-button">Adductor Longus</a>
-                 <a href="korper/muskeln/bein/adductorbrevis.faml" class="tim-bar-item tim-button">Adductor Brevis</a>
-                 <a href="korper/muskeln/bein/adductormagnus.faml" class="tim-bar-item tim-button">Adductor Magnus</a>
-                 <a href="korper/muskeln/bein/quadricepsfemoris.faml" class="tim-bar-item tim-button">Quadriceps Femoris</a>
-                 <a href="korper/muskeln/bein/bicepsfemoris.faml" class="tim-bar-item tim-button">Biceps Femoris</a>
-                 <a href="korper/muskeln/bein/semitendinosus.faml" class="tim-bar-item tim-button">Semitendinosus</a>
-                 <a href="korper/muskeln/bein/semimembranosus.faml" class="tim-bar-item tim-button">Semiemembranosus</a>
-                 <a href="korper/muskeln/bein/sartorius.faml" class="tim-bar-item tim-button">Sartorius</a>
-                 <a href="korper/muskeln/bein/gastrocnemius.faml" class="tim-bar-item tim-button">Gastrocnemius</a>
-                 <a href="korper/muskeln/bein/soleus.faml" class="tim-bar-item tim-button">Soleus</a>
-                 <a href="korper/muskeln/bein/tibialisanterior.faml" class="tim-bar-item tim-button">Tibialis Anterior</a>
-                 <a href="korper/muskeln/bein/tibialisposterior.faml" class="tim-bar-item tim-button">Tibialis Posterior</a>
+                 <a href="korper/muskeln/bein/iliopsoas.faml" class="tim-bar-item tim-button">Lenden-Darmbeinmuskel - Iliopsoas</a>
+                 <a href="korper/muskeln/bein/glutaeusmaximus.faml" class="tim-bar-item tim-button">Großer Gesäßmuskel - Glutaeus Maximus</a>
+                 <a href="korper/muskeln/bein/glutaeusmedius.faml" class="tim-bar-item tim-button">Mittlerer Gesäßmuskel - Glutaeus Medius</a>
+                 <a href="korper/muskeln/bein/glutaeusminimus.faml" class="tim-bar-item tim-button">Kleiner Gesäßmuskel - Glutaeus Minimus</a>
+                 <a href="korper/muskeln/bein/tensorfasciaelatae.faml" class="tim-bar-item tim-button"><Schenkelbindenspanner - Tensor Fasciaelatae</a>
+                 <a href="korper/muskeln/bein/gracilils.faml" class="tim-bar-item tim-button">Schlanker Muskel - Gracilils</a>
+                 <a href="korper/muskeln/bein/pectineus.faml" class="tim-bar-item tim-button">Kammmuskel - Pectineus</a>
+                 <a href="korper/muskeln/bein/adductorlongus.faml" class="tim-bar-item tim-button">Langer Schenkelanzieher - Adductor Longus</a>
+                 <a href="korper/muskeln/bein/adductorbrevis.faml" class="tim-bar-item tim-button">Kleiner Schenkelanzieher - Adductor Brevis</a>
+                 <a href="korper/muskeln/bein/adductormagnus.faml" class="tim-bar-item tim-button">Großer Schenkelanzieher - Adductor Magnus</a>
+                 <a href="korper/muskeln/bein/quadricepsfemoris.faml" class="tim-bar-item tim-button">Vierköpfiger Schenkelstrecker - Quadriceps Femoris</a>
+                 <a href="korper/muskeln/bein/bicepsfemoris.faml" class="tim-bar-item tim-button">Zweiköpfiger Schenkelstrecker - Biceps Femoris</a>
+                 <a href="korper/muskeln/bein/semitendinosus.faml" class="tim-bar-item tim-button">Halbsehnenmuskel - Semitendinosus</a>
+                 <a href="korper/muskeln/bein/semimembranosus.faml" class="tim-bar-item tim-button">Plattsehnenmuskel - Semiemembranosus</a>
+                 <a href="korper/muskeln/bein/sartorius.faml" class="tim-bar-item tim-button">Schneidermuskel - Sartorius</a>
+                 <a href="korper/muskeln/bein/gastrocnemius.faml" class="tim-bar-item tim-button">Zwillingswadenmuskel - Gastrocnemius</a>
+                 <a href="korper/muskeln/bein/soleus.faml" class="tim-bar-item tim-button">Schollenmuskel - Soleus</a>
+                 <a href="korper/muskeln/bein/tibialisanterior.faml" class="tim-bar-item tim-button">Vorderer Schienbeinmuskel - Tibialis Anterior</a>
+                 <a href="korper/muskeln/bein/tibialisposterior.faml" class="tim-bar-item tim-button">Hinterer Schienbeinmuskel - Tibialis Posterior</a>
              </div>
          </div>
 </div>
