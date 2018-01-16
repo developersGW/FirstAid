@@ -1,0 +1,16 @@
+GCP28
+<title>Frage 3</title>
+<page>
+Bitte Beantworte die Frage richtig
+---
+Atmet die Person [Atmung Prüfen](Atmung Prüfen.faml)
+
+[  JA  ](AStablSeitA.faml) 
+
+[NEIN](AAtemA.faml)
+
+---
+[Zurück zum Start](EmergencyOptions.faml)
+
+
+</page>

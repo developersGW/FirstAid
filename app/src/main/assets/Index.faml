@@ -1,0 +1,16 @@
+<icon></icon>
+<title>Das A und O der ersten Hilfe</title>
+<subtitle></subtitle>
+<page>
+Übersicht
+-------------------
+
+<ul class="buttonlist">
+  <a href="seitenlage.faml"><li>Stabile Seitenlage</li></a>
+  <a href="blutstillung.faml " ><li>Blutstillung</li></a>
+  <a href="schock.faml"><li>Schockbekämpfung</li></a>
+  <a href="index-krankheiten(indevelop).faml"><li>Zu den Krankheiten</li></a>
+  <a href="index-verband.faml"><li>Zu Verbänden</li></a>
+</ul>
+
+</page>

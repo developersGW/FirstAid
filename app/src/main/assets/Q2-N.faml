@@ -1,0 +1,16 @@
+GCP28
+<title>Frage 2</title>
+<page>
+Bitte Beantworte die Frage richtig
+---
+Ist die Person Ansprechbar
+
+[  JA  ](Q3-N-J.faml)
+
+[NEIN](Q3-N-N.faml)
+
+---
+[Zurück zum Start](EmergencyOptions.faml)
+
+
+</page>

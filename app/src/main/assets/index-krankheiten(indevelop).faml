@@ -1,0 +1,21 @@
+<icon></icon>
+<title>Krankheiten und Unfälle</title>
+<subtitle>Jede Krankheit benötigt andere Heilungsmethoden, wähle hier die Krankheit aus</subtitle>
+<page>
+
+- <a href="abszess.faml">Abszess/Eiterbeule</a>
+- <a href="akne.faml">Akne</a>
+- <a href="alkoholvergiftung.faml">Alkoholvergiftung</a>
+- <a href="allergischerschock.faml">Anaphylaktischer/Allergischer Schock</a>
+- <a href="Bänderriss.faml">Bänderriss</a>
+- <a href="Borelliose.faml">Borreliose (Zeckenstich)</a>
+- <a href="blutvergiftung.faml">Blutvergiftung</a>
+- <a href="bluthochdruck.faml">Bluthochdruck</a>
+- <a href="denguefieber.faml"> Dengue-Fieber</a>
+- <a href="depressionen.faml"> Depression</a>
+- <a href="dreitagefieber.faml">Drei-Tage-Fieber</a>
+- <a href="eingewachsenerzehenagel.faml">Eingewachsener Zehennagel</a>
+- <a href="epilepsie.faml"> Epilepsie</a>
+- <a href="erkältung.faml">Erkältung</a>
+
+</page>
