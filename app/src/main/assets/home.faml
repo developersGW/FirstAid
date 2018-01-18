@@ -5,15 +5,15 @@
 <subtitle>Deine Sicherheit steht im Vordergrund!</subtitle>
 <page>
   <ul class="buttonlist">
+    <a href="Notruf.faml"><li>Notruf-Übersicht</li></a>
     <a href="Index.faml"><li>A und O der ersten Hilfe</li></a>
     <a href="EmergencyOptions.faml"><li>Notfallmaßnahmen</li></a>
     <a href="korper.faml"><li>Unser Körper</li></a>
-    <a href="javascript:alert('Die Karte wird demnächst implementiert.')"><li>Karte</li></a>
+    <a href="javascript:firstaid.map()"><li>Karte</li></a>
     <a href="tim/tutorial.html"><li>Einführung</li></a>
     <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
     <a href="http://firstaid.tim-ney.de/blog-app/"><li>Neuigkeiten</li></a>
-    <a href="dummy.faml"><li>Einstellungen</li></a>
-    <a href="javascript:alert('Folgende Inhalte sind geplant:\n● GNU GPLv3\n● Lizenzen der Bibliotheken\n● Garantieausschluss\n● Haftungsbeschränkung\n● Allgemeines über das Schulprojekt')"><li>Mehr erfahren</li></a>
+    <a href="about.faml"><li>Mehr erfahren</li></a>
   </ul>
   Wir hoffen, dass dich FirstAid im Ernstfall unterstützen kann. Die Veröffentlichung dieser App erfolgt jedoch ohne jegliche Garantie. Näheres erfährst du in der <a href="license_standalone.html">GNU General Public License</a>.
 </page>

@@ -1,14 +1,14 @@
 GCP28
-<title>Emergency Options</title>
+<title>Notfallmaßnahmen</title>
 
 <page>
-Finde hier heraus wie du dir oder anderen in Notsituatiionen helfen kanst
+Finde hier heraus, wie du dir oder anderen in Notsituationen helfen kannst.
 
 ---
 
-### Forgehen
+### Vorgehen
 - Beantworte einige einfache Fragen
-- Befolge den Aweisungen dar App um richtig zu handeln
+- Befolge die Anweisungen der App, um richtig zu handeln
 
 ----------
 [START](Q1.faml)  
@@ -16,5 +16,5 @@ Finde hier heraus wie du dir oder anderen in Notsituatiionen helfen kanst
 
 ---
 
-Über eine Schaltfläche hier unten kommst du immer [Zurück zum Start]()
+Über eine Schaltfläche hier unten kommst du immer „Zurück zum Start“
 </page>

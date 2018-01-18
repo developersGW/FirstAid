@@ -11,15 +11,50 @@
         app:showAsAction="always"/>
 
     <item
-        android:id="@+id/map"
-        android:icon="@drawable/ic_map"
-        android:title="Map"
-        android:onClick="openMapActivity"
-        app:showAsAction="ifRoom"/>
+        android:title="Notruf-Übersicht"
+        android:onClick="showNumbers"
+        app:showAsAction="never"/>
 
     <item
-        android:title="Platz für dauerhaft anzuzeigende Menüelemente"
-        android:enabled="false"
+        android:title="A und O der ersten Hilfe"
+        android:onClick="showAO"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Notfallmaßnahmen"
+        android:onClick="showEO"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Unser Körper"
+        android:onClick="showOurBody"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_map"
+        android:title="Karte"
+        android:onClick="openMapActivity"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Einführung"
+        android:onClick="showTutorial"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Homepage"
+        android:onClick="showHomePage"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Neuigkeiten"
+        android:onClick="showNews"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Mehr erfahren"
+        android:onClick="learnMore"
         app:showAsAction="never"/>
 
 </menu>

@@ -239,9 +239,46 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void loadFaml(String file) {
+        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/render.html?file=" + file);
+    }
+
+    public void showNumbers(MenuItem item) {
+        loadFaml("Notruf.faml");
+    }
+
+    public void showAO(MenuItem item) {
+        loadFaml("Index.faml");
+    }
+
+    public void showEO(MenuItem item) {
+        loadFaml("EmergencyOptions.faml");
+    }
+
+    public void showOurBody(MenuItem item) {
+        loadFaml("korper.faml");
+    }
+
     public void openMapActivity(MenuItem item) {
         //Toast.makeText(getApplicationContext(), "Hier entsteht die MapActivity.", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, MapActivity3.class);
         startActivity(intent);
     }
+
+    public void showTutorial(MenuItem item) {
+        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/tim/tutorial.html");
     }
+
+    public void showHomePage(MenuItem item) {
+        ((WebView) findViewById(R.id.webview)).loadUrl("http://firstaid.tim-ney.de");
+    }
+
+    public void showNews(MenuItem item) {
+        ((WebView) findViewById(R.id.webview)).loadUrl("http://firstaid.tim-ney.de/blog-app/");
+    }
+
+    public void learnMore(MenuItem item) {
+        loadFaml("about.faml");
+    }
+
+   }
