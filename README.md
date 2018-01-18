@@ -26,7 +26,7 @@ We plan to implement following functions:
 
 ## LICENSE
 
-Copyright © 2016, 2017 developersGW
+Copyright © 2016 - 2018 developersGW
 
 The licenses of additional files and libraries may differ.
 
