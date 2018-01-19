@@ -162,15 +162,15 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
                         .setTitle("Fehler bei der Datenverarbeitung")
                         .setMessage("Beim Einlesen der Daten trat leider folgende Ausnahme auf: " + e.toString())
-                        .setPositiveButton("OK", null)
-                        .setNeutralButton("Fehler berichten", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                // TODO:
-                                // Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(/*URL*/));
-                                // startActivity(browserIntent);
-                                webview.loadUrl("javascript:alert('Ein Fehlerbericht kann derzeit nicht abgesetzt werden.')");
-                            }
-                        });
+                        .setPositiveButton("OK", null);
+//                        .setNeutralButton("Fehler berichten", new DialogInterface.OnClickListener() {
+//                            public void onClick(DialogInterface dialog, int id) {
+//                                // TODO:
+//                                // Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(/*URL*/));
+//                                // startActivity(browserIntent);
+//                                webview.loadUrl("javascript:alert('Ein Fehlerbericht kann derzeit nicht abgesetzt werden.')");
+//                            }
+//                        });
                 builder.create().show();
             }
             return null;
