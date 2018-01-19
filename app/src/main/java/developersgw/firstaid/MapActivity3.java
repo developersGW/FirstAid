@@ -1,3 +1,4 @@
+// authors: SecanoLibre
 package developersgw.firstaid;
 
 import android.support.design.widget.FloatingActionButton;
