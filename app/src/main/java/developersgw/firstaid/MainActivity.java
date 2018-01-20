@@ -195,6 +195,8 @@ public class MainActivity extends AppCompatActivity {
             SharedPreferences.Editor edit = PreferenceManager.getDefaultSharedPreferences(getBaseContext()).edit();
             edit.putBoolean(getString(R.string.previouslyStarted), true);
             edit.commit();
+            Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+            startActivity(intent);
         }
 
         @JavascriptInterface
@@ -266,7 +268,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showTutorial(MenuItem item) {
-        ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/tim/tutorial.html");
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
     }
 
     public void showHomePage(MenuItem item) {

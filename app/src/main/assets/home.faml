@@ -10,7 +10,7 @@
     <a href="EmergencyOptions.faml"><li>Notfallmaßnahmen</li></a>
     <a href="korper.faml"><li>Unser Körper</li></a>
     <a href="javascript:firstaid.map()"><li>Karte</li></a>
-    <a href="tim/tutorial.html"><li>Einführung</li></a>
+    <a href="javascript:firstaid.agree()"><li>Einführung</li></a>
     <a href="http://firstaid.tim-ney.de"><li>Homepage</li></a>
     <a href="http://firstaid.tim-ney.de/blog-app/"><li>Neuigkeiten</li></a>
     <a href="about.faml"><li>Mehr erfahren</li></a>

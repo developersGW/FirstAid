@@ -23,19 +23,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapActivity"
+            android:name=".MapActivity3"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MapActivity3"
-            android:theme="@style/AppTheme"
-            android:parentActivityName="developersgw.firstaid.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="developersgw.firstaid.MainActivity" />
         </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppThemeDark"></activity>
     </application>
 
 </manifest>

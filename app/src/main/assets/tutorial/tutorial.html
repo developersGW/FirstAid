@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <style>
+    a {
+      color: #aaa;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: .1s;
+    }
+    a:active {
+      background: #ddd;
+      color: #f00;
+    }   
+  </style>
+  <body style="background: #000">
+    <div id="image" style="position: fixed; left: 0; top: 0; width: 100%; background-size: contain; background-position: center; background-repeat: no-repeat"></div>
+    <div id="text" style="position: fixed; left: 0; bottom: 0; width: 100%; background: #222; color: #fff; padding: 20px 10px; padding-bottom: 0; font-family: Roboto; font-size: 18px">
+      <div id="caption" style="padding-top: 0 10px; width: calc(100% - 20px); text-align: center"></div>
+<!--      <table style="table-layout: fixed; width: calc(100% - 20px); border-collapse: collapse; font-size: 16px">
+        <tr>
+          <td><a onclick="firstaid.goBack()">« Zurück</a></td>
+          <td style="text-align: right"><a onclick="firstaid.goOn()">Weiter »</a></td>
+        </tr>
+      </table>-->
+    </div>
+    <script>
+      var image = document.getElementById("image");
+      var text = document.getElementById("text");
+      var caption = document.getElementById("caption");
+      var index = location.hash[1];
+      image.style.backgroundImage = "url(" + index + ".png)";
+      caption.innerHTML = ["Weißt du, was in dieser Situation zu tun ist?", "Die junge Frau, die vorbeikommt, weiß es auch nicht.", "Unser Fachmann hat eine Lösung. Er kennt eine App.", "Sie heißt FirstAid und ist genau für solche Situationen gemacht.", "Jetzt kann die Frau dem Mann helfen. Genauso wie du."][index];
+      image.style.height = "calc(100% - " + text.offsetHeight + "px)";
+    </script>
+  </body>
+</html>
