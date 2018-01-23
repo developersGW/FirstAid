@@ -1,0 +1,13 @@
+<icon></icon>
+<title>Frage 8</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+### Welche Nummer rufen Sie bei einem Notfall an?
+
+<ul class="buttonlist">
+<a href="quiz-Q9R.faml"><li>112</li></a>
+<a href="quiz-Q9F.faml"><li>119</li></a>
+<a href="quiz-Q9F.faml"><li>115</li></a>
+<a href="quiz-Q9F.faml"><li>111</li></a>
+</ul>
+</page>

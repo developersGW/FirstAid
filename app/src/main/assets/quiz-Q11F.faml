@@ -1,0 +1,17 @@
+<icon></icon>
+<title>Frage 11</title>
+<subtitle><span style="color: red">Falsche Antwort…</span></subtitle>
+<page>
+Die richtige Antwort wäre gewesen: „Ihm mit der flachen Hand zwischen die Schulterblätter schlagen“
+
+### In welcher Reihenfolge meldet man die Notfallinformationen?
+
+<ul class="buttonlist">
+<a href="quiz-QRF.faml"><li>Wer? Wo? Was? Wie viele Betroffene?</li></a>
+<a href="quiz-QRF.faml"><li>Wo? Wann? Wie? Was?</li></a>
+<a href="quiz-QRF.faml"><li>Wer? Was? Wo? Wann?</li></a>
+<a href="quiz-QRR.faml"><li>Wo? Was? Wie viele Betroffene?</li></a>
+</ul>
+
+Bei Giften auch „Wie viel?“.
+</page>

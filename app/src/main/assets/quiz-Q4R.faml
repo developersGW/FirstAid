@@ -1,0 +1,13 @@
+<icon></icon>
+<title>Frage 4</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+### Wie gehen Sie vor, wenn eine hilfsbedürftige Person zwar bewusstlos ist, aber noch atmet?
+
+<ul class="buttonlist">
+<a href="quiz-Q5F.faml"><li>Herz-Lungen-Wiederbelebung und Notruf wählen</li></a>
+<a href="quiz-Q5F.faml"><li>In Schocklage bringen und Notruf wählen</li></a>
+<a href="quiz-Q5R.faml"><li>In die stabile Seitenlage bringen und Notruf wählen</li></a>
+<a href="quiz-Q5F.faml"><li>Notruf wählen und auf Hilfe warten</li></a>
+</ul>
+</page>

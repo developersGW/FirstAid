@@ -1,0 +1,12 @@
+<icon></icon>
+<title>Frage 1</title>
+<page>
+### Ein Mensch ist bewusstlos und atmet nicht. Was tun Sie als erstes?
+
+<ul class="buttonlist">
+<a href="quiz-Q2F.faml"><li>Den Puls messen</li></a>
+<a href="quiz-Q2R.faml"><li>Notruf absetzen, dann mit der Herzdruckmassage beginnen</li></a>
+<a href="quiz-Q2F.faml"><li>Notruf absetzen, dann Mund-zu-Mund beatmen</li></a>
+<a href="quiz-Q2F.faml"><li>Wegrennen und nach anderen Helfern suchen</li></a>
+</ul>
+</page>

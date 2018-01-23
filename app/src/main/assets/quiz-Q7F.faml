@@ -1,0 +1,15 @@
+<icon></icon>
+<title>Frage 7</title>
+<subtitle><span style="color: red">Falsche Antwort…</span></subtitle>
+<page>
+Die richtige Antwort wäre gewesen: „Sie alarmieren sofort den Notarzt“
+
+### Was sollte danach vermieden werden?
+
+<ul class="buttonlist">
+<a href="quiz-Q8R.faml"><li>Essen und trinken</li></a>
+<a href="quiz-Q8F.faml"><li>Auf Toilette gehen</li></a>
+<a href="quiz-Q8F.faml"><li>Bewegt werden</li></a>
+<a href="quiz-Q8F.faml"><li>Sprechen</li></a>
+</ul>
+</page>

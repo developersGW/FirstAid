@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
     ProgressDialog dialog;
     Menu mainmenu;
+    Integer rightanswers = 0;
+    Boolean quiz = false;
 
     private void hideDialog() {
         if (dialog != null) {
@@ -46,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goHome(MenuItem item) {
         ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/render.html?file=home.faml");
+    }
+
+    private void quitQuiz() {
+        quiz = false;
+        rightanswers = 0;
     }
 
     @Override
@@ -67,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     getSupportActionBar().setDisplayHomeAsUpEnabled(false);
                     mainmenu.findItem(R.id.home).setVisible(false);
+                }
+                if (quiz) {
+                    getSupportActionBar().setDisplayHomeAsUpEnabled(false);
                 }
                 super.onReceivedTitle(view, title);
             }
@@ -111,6 +121,17 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 else if (url.endsWith(".faml")) {
+                    if (url.contains("quiz-")) {
+                        if (url.endsWith("R.faml")) {
+                            rightanswers++;
+                        }
+                        if (url.contains("quiz-Q2")) {
+                            quiz = true;
+                        }
+                    }
+                    else if (quiz) {
+                        quitQuiz();
+                    }
                     webview.loadUrl("file:///android_asset/render.html?file=" + url.replace("file:///android_asset/", ""));
                     return true;
                 }
@@ -121,6 +142,37 @@ public class MainActivity extends AppCompatActivity {
 //                if (url.endsWith(".faml")) {
 //                    webview.loadUrl("file:///android_asset/render.html?file=" + url.replace("file:///android_asset/", ""));
 //                }
+                if (url.contains("quiz-results.faml")) {
+                    String statement = "Schwach";
+                    String color = "red";
+                    if (rightanswers == 11) {
+                        statement = "Perfekt";
+                        color = "green";
+                    }
+                    else if (rightanswers == 10) {
+                        statement = "Sehr gut";
+                        color = "green";
+                    }
+                    else if (rightanswers > 7) {
+                        statement = "Gut";
+                        color = "yellowgreen";
+                    }
+                    else if (rightanswers > 5) {
+                        statement = "Solide";
+                        color = "orange";
+                    }
+                    else if (rightanswers > 3) {
+                        statement = "Durchwachsen";
+                        color = "tomato";
+                    }
+                    webview.evaluateJavascript("var result = document.getElementById('result'), correct = document.getElementById('correct'); result.innerHTML = '" + statement + "'; result.style.color = '" + color + "'; correct.innerHTML = " + rightanswers + "; correct.style.color = '" + color + "'", null);
+                }
+                if (quiz) {
+                    webview.clearHistory();
+                    if (!url.contains("quiz-Q")) {
+                        quitQuiz();
+                    }
+                }
             }
             @Override
             public void onPageCommitVisible(WebView view, String url) {
@@ -243,6 +295,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadFaml(String file) {
         ((WebView) findViewById(R.id.webview)).loadUrl("file:///android_asset/render.html?file=" + file);
+    }
+
+    public void startQuiz(MenuItem item) {
+        quitQuiz();
+        loadFaml("quiz-Q1.faml");
     }
 
     public void showNumbers(MenuItem item) {

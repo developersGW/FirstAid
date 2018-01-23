@@ -1,0 +1,13 @@
+<icon></icon>
+<title>Frage 6</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+### Ein Kind hat einen Löffel Waschpulver verschluckt. Was tun Sie?
+
+<ul class="buttonlist">
+<a href="quiz-Q7F.faml"><li>Sie bringen das Kind dazu, sich zu erbrechen</li></a>
+<a href="quiz-Q7F.faml"><li>Sie geben dem Kind viel Wasser zu trinken</li></a>
+<a href="quiz-Q7R.faml"><li>Sie alarmieren sofort den Notarzt</li></a>
+<a href="quiz-Q7F.faml"><li>Sie geben dem Kind Milch zu trinken</li></a>
+</ul>
+</page>

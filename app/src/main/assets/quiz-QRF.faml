@@ -1,0 +1,10 @@
+<icon></icon>
+<title>Fertig!</title>
+<subtitle><span style="color: red">Falsche Antwort…</span></subtitle>
+<page>
+Die richtige Antwort wäre gewesen: „Wo? Was? Wie viele Betroffene?“
+
+<ul class="buttonlist">
+<a href="quiz-results.faml"><li>Zur Auswertung</li></a>
+</ul>
+</page>

@@ -1,0 +1,15 @@
+<icon></icon>
+<title>Frage 10</title>
+<subtitle><span style="color: red">Falsche Antwort…</span></subtitle>
+<page>
+Die richtige Antwort wäre gewesen: „Gefährliche Gegenstände in der Umgebung entfernen“
+
+### Was machen Sie, wenn jemend sich an essen verschluckt?
+
+<ul class="buttonlist">
+<a href="quiz-Q11F.faml"><li>Ihm ein Glas Wasser anbieten</li></a>
+<a href="quiz-Q11R.faml"><li>Ihm mit der flachen Hand zwischen die Schulterblätter schlagen</li></a>
+<a href="quiz-Q11F.faml"><li>Das Essen mit der Hand aus dem Rachen ziehen</li></a>
+<a href="quiz-Q11F.faml"><li>Die Kellnerin auf ihren Job hinweisen</li></a>
+</ul>
+</page>

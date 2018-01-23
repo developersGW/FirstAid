@@ -1,0 +1,13 @@
+<icon></icon>
+<title>Frage 3</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+### Was sollte der erste Schritt bei der Versorgung einer blutenden Wunde sein?
+
+<ul class="buttonlist">
+<a href="quiz-Q4F.faml"><li>Vor dem Verbinden der Wunde mögliche Fremdkörper entfernen</li></a>
+<a href="quiz-Q4F.faml"><li>Vor dem Verbinden die Wunde desinfizieren</li></a>
+<a href="quiz-Q4F.faml"><li>Vor dem Verbinden die Wunde gründlich auswaschen</li></a>
+<a href="quiz-Q4R.faml"><li>Die Wunde wie vorgefunden keimfrei abdecken</li></a>
+</ul>
+</page>

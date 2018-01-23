@@ -1,0 +1,13 @@
+<icon></icon>
+<title>Frage 2</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+### Wie lautet die Faustregel für Herzdruckmassage und Beatmung?
+
+<ul class="buttonlist">
+<a href="quiz-Q3R.faml"><li>30 Mal drücken, zweimal beatmen</li></a>
+<a href="quiz-Q3F.faml"><li>dreimal drücken, zweimal beatmen</li></a>
+<a href="quiz-Q3F.faml"><li>30 Mal drücken, 10 Mal beatmen</li></a>
+<a href="quiz-Q3F.faml"><li>30 Mal drücken, 15 Mal beatmen</li></a>
+</ul>
+</page>

@@ -1,0 +1,14 @@
+<icon></icon>
+<title>Auswertung</title>
+<subtitle><span id="result"></span></subtitle>
+<page>
+<div style="text-align: center">
+### Du hast insgesamt
+<div style="font-size: 70px" id="correct"></div>
+### von 11 Fragen richtig beantwortet.
+</div>
+
+<ul class="buttonlist">
+<a href="home.faml"><li>Zum Hauptmenü</li></a>
+</ul>
+</page> 

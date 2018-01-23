@@ -1,0 +1,15 @@
+<icon></icon>
+<title>Frage 9</title>
+<subtitle><span style="color: red">Falsche Antwort…</span></subtitle>
+<page>
+Die richtige Antwort wäre gewesen: „112“
+
+### Was machen sie wenn ein Passant einen Krampfanfall hat?
+
+<ul class="buttonlist">
+<a href="quiz-Q10F.faml"><li>Ihn festhalten, damit er andere nicht verletzt</li></a>
+<a href="quiz-Q10R.faml"><li>Gefährliche Gegenstände in der Umgebung entfernen</li></a>
+<a href="quiz-Q10F.faml"><li>Mit einer Muskelmassage starten</li></a>
+<a href="quiz-Q10F.faml"><li>Verhindern, dass er seine Zunge abbeißt oder verschluckt</li></a>
+</ul>
+</page>

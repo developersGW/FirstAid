@@ -5,6 +5,7 @@
 <subtitle>Deine Sicherheit steht im Vordergrund!</subtitle>
 <page>
   <ul class="buttonlist">
+    <a href="quiz-Q1.faml"><li>Ersthelfer-Quiz</li></a>
     <a href="Notruf.faml"><li>Notruf-Übersicht</li></a>
     <a href="Index.faml"><li>A und O der ersten Hilfe</li></a>
     <a href="EmergencyOptions.faml"><li>Notfallmaßnahmen</li></a>

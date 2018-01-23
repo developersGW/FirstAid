@@ -11,6 +11,11 @@
         app:showAsAction="always"/>
 
     <item
+        android:title="Ersthelfer-Quiz"
+        android:onClick="startQuiz"
+        app:showAsAction="never"/>
+
+    <item
         android:title="Notruf-Übersicht"
         android:onClick="showNumbers"
         app:showAsAction="never"/>

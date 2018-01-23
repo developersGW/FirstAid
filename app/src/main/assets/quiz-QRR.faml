@@ -1,0 +1,8 @@
+<icon></icon>
+<title>Fertig!</title>
+<subtitle><span style="color: green">Richtige Antwort!</span></subtitle>
+<page>
+<ul class="buttonlist">
+<a href="quiz-results.faml"><li>Zur Auswertung</li></a>
+</ul>
+</page>
