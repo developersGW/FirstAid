@@ -143,29 +143,30 @@ public class MainActivity extends AppCompatActivity {
 //                    webview.loadUrl("file:///android_asset/render.html?file=" + url.replace("file:///android_asset/", ""));
 //                }
                 if (url.contains("quiz-results.faml")) {
-                    String statement = "Schwach";
-                    String color = "red";
-                    if (rightanswers == 11) {
-                        statement = "Perfekt";
-                        color = "green";
+                    if (quiz) {
+                        String statement = "Schwach";
+                        String color = "red";
+                        if (rightanswers == 11) {
+                            statement = "Perfekt";
+                            color = "green";
+                        } else if (rightanswers == 10) {
+                            statement = "Sehr gut";
+                            color = "green";
+                        } else if (rightanswers > 7) {
+                            statement = "Gut";
+                            color = "yellowgreen";
+                        } else if (rightanswers > 5) {
+                            statement = "Solide";
+                            color = "orange";
+                        } else if (rightanswers > 3) {
+                            statement = "Durchwachsen";
+                            color = "tomato";
+                        }
+                        webview.evaluateJavascript("var result = document.getElementById('result'), correct = document.getElementById('correct'); result.innerHTML = '" + statement + "'; result.style.color = '" + color + "'; correct.innerHTML = " + rightanswers + "; correct.style.color = '" + color + "'", null);
                     }
-                    else if (rightanswers == 10) {
-                        statement = "Sehr gut";
-                        color = "green";
+                    else {
+                        goHome(null);
                     }
-                    else if (rightanswers > 7) {
-                        statement = "Gut";
-                        color = "yellowgreen";
-                    }
-                    else if (rightanswers > 5) {
-                        statement = "Solide";
-                        color = "orange";
-                    }
-                    else if (rightanswers > 3) {
-                        statement = "Durchwachsen";
-                        color = "tomato";
-                    }
-                    webview.evaluateJavascript("var result = document.getElementById('result'), correct = document.getElementById('correct'); result.innerHTML = '" + statement + "'; result.style.color = '" + color + "'; correct.innerHTML = " + rightanswers + "; correct.style.color = '" + color + "'", null);
                 }
                 if (quiz) {
                     webview.clearHistory();
